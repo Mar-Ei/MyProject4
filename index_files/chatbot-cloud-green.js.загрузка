@@ -1,0 +1,2145 @@
+/* chatbot_cloud-green.js : A/B Test UI Controller for Buff Bot on the Cloud US (New Window)
+ * based on Cisco ChatController.js
+ *
+ * dependencies:
+ *   -- etc.clientlibs/cisco-cdc/clientlibs/clientlib-ancillary.js' for userInfoDispatcher in Okta , Wharton A/B Test
+ *   -- buttonmapper.json
+ *  version 8-1-2024  
+ *
+ */ 
+
+if (!window.hasOwnProperty("cdc")) {
+    window.cdc = {};
+}
+
+    //snippet below ensures that in GDPR countries, that the icon is not displayed if Telium doesnt launch chat 
+if (document.getElementsByClassName('c2c-no-margin').length > 0) {
+    const c2cNoMargins = document.querySelectorAll('.c2c-no-margin');
+
+    c2cNoMargins.forEach(c2cNoMargin=>{
+        c2cNoMargin.style.display = 'none';
+    }
+    );
+}
+
+/* the following is a chat controller class that when instantiated via 'new' exposes these methods:
+ *
+ * - init()
+ * - getChatInstance()
+ *
+ */
+var userInfoDispatcher;
+if (cocoaBotTranslateObject == undefined || cocoaBotTranslateObject == null) {
+    var cocoaBotTranslateObject;
+}
+var runOnlyOnceCounter = 1;
+var substringsEng = ['/us/en/', '/uk/en/', '/au/en/', '/in/en/'];
+var strURL = window.location.pathname;
+if (strURL.includes("hybrid-work") && substringsEng.some(s=>strURL.includes(s))) {
+
+    cocoaBotTranslateObject = {
+        "Cisco_Proactive_Chat_Intro": "Welcome to Cisco!",
+        "Cisco_Chat_Now": "Chat with Sales",
+        "Cisco_Proactive_Chat_Content": "Want to learn more about hybrid work?",
+        "Cisco_Proactive_Chat_Decline_Title": "Decline the chat invitation",
+        "Cisco_Proactive_Chat_Metrics_Group": "pop up hybrid chat",
+        "Cisco_Proactive_Chat_Decline": "No Thanks",
+        "Cisco_Proactive_Chat_Intro_Title": "Cisco:",
+        "Cisco_Proactive_Chat_Accept_Metrics_Item": "accept the hybrid chat invitation",
+        "Cisco_Proactive_Chat_Decline_Metrics_Item": "decline the hybrid chat invitation",
+        "Cisco_Proactive_Chat_Title": "Chat live with a hybrid work expert",
+        "Cisco_Proactive_Chat_Accept_Title": "Accept the chat invitation",
+        "Cisco_Proactive_Chat_Accept": "Chat Now"
+    };
+} else if (strURL.includes("smart-building") && substringsEng.some(s=>strURL.includes(s))) {
+    cocoaBotTranslateObject = {
+        "Cisco_Proactive_Chat_Intro": "Welcome to Cisco Smart Building Solutions, how can I help you?",
+        "Cisco_Chat_Now": "Chat with Sales",
+        "Cisco_Proactive_Chat_Content": "",
+        "Cisco_Proactive_Chat_Decline_Title": "Decline the chat invitation",
+        "Cisco_Proactive_Chat_Metrics_Group": "pop up smart buildings chat",
+        "Cisco_Proactive_Chat_Decline": "No Thanks",
+        "Cisco_Proactive_Chat_Intro_Title": "Cisco:",
+        "Cisco_Proactive_Chat_Accept_Metrics_Item": "accept the smart buildings chat invitation",
+        "Cisco_Proactive_Chat_Decline_Metrics_Item": "decline the smart buildings chat invitation",
+        "Cisco_Proactive_Chat_Title": "Chat live with a Cisco smart building expert",
+        "Cisco_Proactive_Chat_Accept_Title": "Accept the chat invitation",
+        "Cisco_Proactive_Chat_Accept": "Chat Now"
+    };
+} else if (strURL.includes("full-stack-observability") && substringsEng.some(s=>strURL.includes(s))) {
+    cocoaBotTranslateObject = {
+        "Cisco_Proactive_Chat_Intro": "Welcome to Cisco!",
+        "Cisco_Chat_Now": "Chat with Sales",
+        "Cisco_Proactive_Chat_Content": "Want to learn more about full-stack observability?",
+        "Cisco_Proactive_Chat_Decline_Title": "Decline the chat invitation",
+        "Cisco_Proactive_Chat_Metrics_Group": "pop up fso chat",
+        "Cisco_Proactive_Chat_Decline": "No Thanks",
+        "Cisco_Proactive_Chat_Intro_Title": "Cisco:",
+        "Cisco_Proactive_Chat_Accept_Metrics_Item": "accept the fso chat invitation",
+        "Cisco_Proactive_Chat_Decline_Metrics_Item": "decline the fso chat invitation",
+        "Cisco_Proactive_Chat_Title": "Ask the expert",
+        "Cisco_Proactive_Chat_Accept_Title": "Accept the chat invitation",
+        "Cisco_Proactive_Chat_Accept": "Chat Now"
+    };
+} else if (strURL.includes("full-stack-observability") && strURL.includes("fr_ca")) {
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Intro = decodeURI('Bienvenue%20chez%20Cisco%21');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Content = decodeURI('Vous%20voulez%20en%20savoir%20plus%20sur%20l%27observabilit%C3%A9%20int%C3%A9grale?');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Title = decodeURI('Demandez%20%C3%A0%20l%E2%80%99expert');
+} else if (strURL.includes("full-stack-observability") && strURL.includes("fr_fr")) {
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Intro = decodeURI('Bienvenue%20chez%20Cisco%21');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Content = decodeURI('Vous%20souhaitez%20en%20savoir%20plus%20sur%20l%27observabilit%C3%A9%20full-stack?');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Title = decodeURI('Demandez%20%C3%A0%20un%20expert');
+} else if (strURL.includes("full-stack-observability") && strURL.includes("de_de")) {
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Intro = decodeURI('Willkommen%20bei%20Cisco%21');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Content = decodeURI('Ben%C3%B6tigen%20Sie%20mehr%20Infos%20zu%20Full-Stack%20Observability?');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Title = decodeURI('Fragen%20Sie%20einen%20Experten');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Accept = decodeURI('Jetzt%20chatten');
+} else if (strURL.includes("full-stack-observability") && strURL.includes("ja_jp")) {
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Intro = decodeURI('%E3%82%B7%E3%82%B9%E3%82%B3%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Content = decodeURI('%E3%83%95%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF%20%E3%82%AA%E3%83%96%E3%82%B6%E3%83%BC%E3%83%90%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%94%E5%AD%98%E7%9F%A5%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Title = decodeURI('%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%81%AB%E8%B3%AA%E5%95%8F');
+} else if (strURL.includes("hybrid-work") && strURL.includes("fr_ca")) {
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Title = decodeURI('Clavardez%20en%20direct%20avec%20un%20sp%C3%A9cialiste%20en%20travail%20hybride');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Intro = decodeURI('Bienvenue%20chez%20Cisco%21');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Content = decodeURI('Vous%20souhaitez%20en%20savoir%20plus%20sur%20le%20travail%20hybride?');
+    //  cocoaBotTranslateObject.Cisco_Proactive_Chat_Decline = decodeURI('Non%20merci');
+    //   cocoaBotTranslateObject.Cisco_Proactive_Chat_Accept = decodeURI('Clavardez%20maintenant');
+} else if (strURL.includes("hybrid-work") && strURL.includes("fr_fr")) {
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Title = decodeURI('Discutez%20en%20ligne%20avec%20un%20expert%20du%20travail%20hybride');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Intro = decodeURI('Bienvenue%20chez%20Cisco%21');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Content = decodeURI('Vous%20voulez%20en%20savoir%20plus%20sur%20le%20travail%20hybride?');
+    //  cocoaBotTranslateObject.Cisco_Proactive_Chat_Decline = decodeURI('Non%20merci');
+    // cocoaBotTranslateObject.Cisco_Proactive_Chat_Accept = decodeURI('Discuter%20maintenant');
+} else if (strURL.includes("hybrid-work") && strURL.includes("de_de")) {
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Title = decodeURI('Chatten%20Sie%20mit%20unserem%20Expertenteam%20f%C3%BCr%20hybride%20Arbeit');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Intro = decodeURI('Willkommen%20bei%20Cisco%21');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Content = decodeURI('M%C3%B6chten%20Sie%20mehr%20%C3%BCber%20hybride%20Arbeit%20erfahren?');
+    //  cocoaBotTranslateObject.Cisco_Proactive_Chat_Decline = decodeURI('Nein%20danke');
+    //  cocoaBotTranslateObject.Cisco_Proactive_Chat_Accept = decodeURI('Jetzt%20chatten');
+} else if (strURL.includes("hybrid-work") && strURL.includes("ja_jp")) {
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Title = decodeURI('%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%89%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AE%E3%82%A8%E3%82%AD%E3%82%B9%E3%83%91%E3%83%BC%E3%83%88%E3%81%A8%E3%83%A9%E3%82%A4%E3%83%96%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%82%92%E3%81%99%E3%82%8B');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Intro = decodeURI('%E3%82%B7%E3%82%B9%E3%82%B3%EF%BC%9A%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%EF%BC%81');
+    cocoaBotTranslateObject.Cisco_Proactive_Chat_Content = decodeURI('%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%89%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AE%E8%A9%B3%E7%B4%B0%E3%82%92%E3%81%94%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%BE%E3%81%99%E3%80%82');
+    //    cocoaBotTranslateObject.Cisco_Proactive_Chat_Decline = decodeURI('%E5%BF%85%E8%A6%81%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93');
+    //   cocoaBotTranslateObject.Cisco_Proactive_Chat_Accept = decodeURI('%E4%BB%8A%E3%81%99%E3%81%90%E3%83%81%E3%83%A3%E3%83%83%E3%83%88');
+}
+function replaceBuffInline() {
+
+    //botLaunchMode = {Inbound%20Chat%20Contact%20Cisco, Inbound%20Chat%20Floater, Inbound%20Chat%20Proactive%20popup, Inbound%20Chat%20Inline%20CTA}
+    if (document.getElementsByClassName("buff-inline-link")){
+        let linkCollectionBuffInline = document.getElementsByClassName('buff-inline-link');
+    let nhurl_inline = cdc.nHc.nhurl + "&botLaunchMode=Inbound%20Chat%20Inline%20CTA";
+	    for (let i = 0; i < linkCollectionBuffInline.length; i++) {
+	        linkCollectionBuffInline[i].setAttribute("href", "javascript:void(0);");
+	        linkCollectionBuffInline[i].setAttribute("onclick", "trackEvent.event('link', {'lpos': 'Cisco Reactive Chat Fire','lid': 'Reactive chat'}); window.open('" + nhurl_inline + "','cocoa','height=600,width=514');window.reactiveCocoaOn=1; sessionStorage['proactiveCocoaSession'] = JSON.stringify({'state':'off'});if (null !== document.getElementById('cocoa-proactice-chat')) document.getElementById('cocoa-proactice-chat').style.display = 'none';");
+	    }
+    }
+    if (document.querySelectorAll('[href="#chatbot-link"]')){
+        let hrefCollectionBuffInline = document.querySelectorAll('[href="#chatbot-link"]');
+    let nhurl_inline_icon = cdc.nHc.nhurl + "&botLaunchMode=Inbound%20Chat%20Inline%20Icon";
+	    for (let ii = 0; ii < hrefCollectionBuffInline.length; ii++) {
+	            
+	        hrefCollectionBuffInline[ii].setAttribute("href", "javascript:void(0);");
+	        hrefCollectionBuffInline[ii].setAttribute("onclick", "trackEvent.event('link', {'lpos': 'Cisco Reactive Chat Fire','lid': 'Reactive chat'}); window.open('" + nhurl_inline_icon + "','cocoa','height=600,width=514');window.reactiveCocoaOn=1; sessionStorage['proactiveCocoaSession'] = JSON.stringify({'state':'off'});if (null !== document.getElementById('cocoa-proactice-chat')) document.getElementById('cocoa-proactice-chat').style.display = 'none';");
+	    }
+	}
+}
+cdc.nHc = function() {
+    "use strict";
+    // jslint does not allow this in global scope
+    var myState = null;
+    const urlParams = new URLSearchParams(window.location.search);
+    /*
+         * Based on LiveAgentAdapter (written by masridha@cisco.com)
+         */
+
+    function noHoldAdapter(chatlog, addEvent, getCookie) {
+        chatlog("[0.4]          -- begin Adapter constructor...");
+        //this is the stage url
+        //var userInfoDispatcher;
+        var environmental = cdcext.customEnvironment;
+
+        //console.log("Environment = " + environmental);
+
+        if (!environmental || environmental == "unknown") {
+            environmental = "prod";
+        }
+ 
+		const buttonTextElement = document.querySelector('.fw-c-header__overlay #email-address');
+		
+
+        var enviro = cdcext.customEnvironment;;
+
+        if (environmental == "prod" || enviro == "prod") {
+            if (buttonTextElement) {
+                var nhurl = "https://virtualconcierge.cisco.com/app/v1/chat?id=f5f833f2-2210-47f8-b02e-1b093cb821bc";
+	        } else {
+                var nhurl = "https://virtualconcierge.cisco.com/app/v2/chat?id=f5f833f2-2210-47f8-b02e-1b093cb821bc";
+            }
+        } else {
+            if (buttonTextElement) {
+                var nhurl = "https://virtualconcierge-stage.cisco.com/app/v1/chat?id=f5f833f2-2210-47f8-b02e-1b093cb821bc";
+            } else {
+                var nhurl = "https://virtualconcierge-stage.cisco.com/app/v2/chat?id=f5f833f2-2210-47f8-b02e-1b093cb821bc";
+            }
+        }
+
+        //below is the prod url
+        //todo :check if the page has chatbottest.js or chatbot.js and dynamically change prod and stage urls
+        //var nhurl = "https://spyder.cisco.com/app/v2/chat?id=f5f833f2-2210-47f8-b02e-1b093cb821bc";
+        //var nhurl = "https://buffweb-prodsb-alln.cisco.com/app/v2/chat?id=f5f833f2-2210-47f8-b02e-1b093cb821bc";
+        // AS: function to build Parameters
+        function addnHparam(name, value) {
+            nhurl = nhurl + "&" + name + "=" + value;
+        }
+
+        /*
+                 * incoming object param 'p':
+                 *
+                 * var result = {
+                 *    'chatNode'  : chatNode,
+                 *    'state'     : state,
+                 *    'wireParams': wireParams,
+                 *    'myself'    : myself
+                 * };
+                 *
+                 * and 'p.wireParams' is
+                 *
+                 * wireParams:
+                 *       var wireParams = {
+                 *          'buttonId'    : resolveId(chatNode, state.buttonInfo.buttonId,'button'),
+                 *          'proactiveId' : resolveId(chatNode, state.buttonInfo.proactiveId,'proactive'),
+                 *          'keyCode'     : chatNode.getAttribute("data-c2c-keycode"),
+                 *       };
+                 *
+                 */
+
+        // AS: Modified setup function gets params from wire and builds the URL, then writes the button link to the page
+        this.setup = function(p) {
+
+            // define a simple XHR handler to gain independence from jQuery
+            function grabJson(params) {
+                var xhr = false
+                  , resp = '';
+
+                try {
+                    xhr = new XMLHttpRequest();
+                } // most browsers
+                catch (ignore) {
+                    // must be IE
+                    try {
+                        xhr = new ActiveXObject("Msxml2.XMLHTTP");
+                    } // IE
+                    catch (ignore) {
+                        // e2
+                        // must be _old_ IE
+                        try {
+                            xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                        } // try an older version
+                        catch (ignore) {
+                            // e3
+                            return false;
+                        }
+                    }
+                }
+                if (!xhr) {
+                    return false;
+                }
+
+                if (typeof params.success !== 'function') {
+                    params.success = function() {}
+                    ;
+                }
+                if (typeof params.error !== 'function') {
+                    params.error = function() {}
+                    ;
+                }
+
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4) {
+                        if (xhr.status === 200) {
+                            try {
+                                resp = JSON.parse(xhr.responseText);
+                            } catch (syntaxError) {
+                                return params.error(xhr, 'parsererror', syntaxError.message);
+                            }
+                            return params.success(resp, xhr.statusText, xhr);
+                        } else {
+                            return params.error(xhr, xhr.statusText, 'error');
+                        }
+                    }
+                }
+                ;
+
+                xhr.open("GET", params.url, true);
+                //xhr.open('GET', params.url + '?' + new Date().getTime(), true);
+
+                if (params.hasOwnProperty('contentType')) {
+                    xhr.setRequestHeader('Content-Type', 'application/json');
+                }
+
+                if (params.hasOwnProperty('authority')) {
+                    xhr.setRequestHeader("Authority", params.authValue);
+                }
+
+                if (params.hasOwnProperty('withCredentials')) {
+                    xhr.withCredentials = false;
+                }
+
+                if (params.headers) {
+                    // jslint made me do this instead of 'for in'... *sigh*
+                    Object.keys(params.headers).forEach(function(key) {
+                        xhr.setRequestHeader(key, params.headers[key]);
+                    });
+                }
+
+                xhr.send(null);
+                return xhr;
+            }
+            // end getJson()       
+
+            //const urlParams = new URLSearchParams(window.location.search);
+            var cocoaPopupOverride = urlParams.get('c2cPopupOverride2');
+            var showProactiveConsole = urlParams.get('showProactiveConsole2');
+
+            function chatLogProactive(msg) {
+                if (showProactiveConsole == 1) {
+                    console.log(JSON.stringify(msg));
+                }
+            }
+            function GetPropertyValue(obj1, dataToRetrieve) {
+                return dataToRetrieve.split('.')// split string based on `.` 
+                .reduce(function(o, k) {
+                    return o && o[k];
+                    // get inner property if `o` is defined else get `o` and return
+                }, obj1)
+                // set initial value as object
+            }
+
+            function keyWordsCurrentURL() {
+                let botURLPathname = window.location.pathname;
+                botURLPathname = botURLPathname.replace('/index.html', '');
+                botURLPathname = botURLPathname.replace('.html', '');
+                let botURLPage = botURLPathname.split('/').pop();
+                let botURLArray = botURLPathname.split("/");
+                var botURLArrayNew;
+                if (botURLArray[1] == "c" || botURLArray[1] == "content") {
+                    if (botURLArray[2].includes("_")) {
+                        botURLArrayNew = botURLArray.slice(3, -1).toString() + "," + botURLPage;
+                    } else {
+                        botURLArrayNew = botURLArray.slice(4, -1).toString() + "," + botURLPage;
+                    }
+                } else if (botURLArray[1] == "site") {
+                    botURLArrayNew = botURLArray.slice(4, -1).toString() + "," + botURLPage;
+                } else {
+                    botURLArrayNew = botURLPathname.replaceAll('/', ',');
+                    botURLArrayNew = botURLArrayNew.slice(1);
+                }
+                if (botURLArrayNew.includes("_")) {
+                    botURLArrayNew = "index";
+                }
+                if (botURLArrayNew.charAt(0) === ',') {
+                    botURLArrayNew = botURLArrayNew.slice(1);
+                }
+                if (botURLArrayNew.length < 2) {
+                    botURLArrayNew = "index";
+                }
+                return botURLArrayNew;
+            }
+
+            //Check the buff api as to whether the chatbot is working or not before displaying the 'Chat Now' button
+            //and proactive chat 
+            var isBuffWorking, isBuffWorkingStatus;
+            function isBuffWorking() {
+              
+                isBuffWorking = 1;
+                replaceBuffInline();
+                chatLogProactive("[5.21] -[proactive-cocoa] -- BUFF status v1.0/eman endpoint : SUCCESS - BUFF IS RUNNING");
+                if (document.getElementsByClassName('vabutton').length < 1) {
+                    document.getElementById("nhbtn").appendChild(aTag);
+                    if (document.getElementsByClassName('c2c-no-margin').length > 0) {
+                        const c2cNoMargins2 = document.querySelectorAll('.c2c-no-margin');
+                        c2cNoMargins2.forEach(c2cNoMargin=>{
+                            c2cNoMargin.style.display = 'block';
+                        }
+                        );
+                    }
+                }
+            }
+            // end isBuffWorking()               
+
+            var wire = p.wireParams, proactiveNodes, i;
+
+            chatlog("[4.4] -- begin Adapter.setup()");
+            chatlog("[4.4]    -- buttonId=[" + wire.buttonId + "], proactiveId=[" + wire.proactiveId + "], keyCode=[" + wire.keyCode + "]...");
+            chatlog("[4.4]    -- chatNode: ", p.chatNode);
+
+            var cpGutcVal = getCookie('CP_GUTC')
+              , chatNowButton = p.chatNode;
+
+            // add the wire button Id to the actual button itself so it can be read on click
+            function stripExtraChars(param) {
+                let arr = new Array();
+                arr[0] = param;
+
+                if (param.indexOf('&') > -1) {
+                    arr = param.split('&');
+                } else if (param.indexOf('?') > -1) {
+                    arr = param.split('?');
+                } else if (param.indexOf('#') > -1) {
+                    arr = param.split('#');
+                }
+
+                return arr[0];
+            }
+            if (!p.state.flags.detailsAdded) {
+
+                if (wire["data-c2c-ecid"]) {
+                    chatlog("[4.4]    -- adding data-c2c-ecid=[" + wire["data-c2c-ecid"] + "]");
+                    addnHparam('datac2cecid', stripExtraChars(wire["data-c2c-ecid"]));
+                } else {
+                    chatlog("[4.4]    -- data-c2c-ecid is null");
+                }
+                if (wire["data-c2c-oid"]) {
+                    chatlog("[4.4]    -- adding data-c2c-oid=[" + wire["data-c2c-oid"] + "]");
+                    addnHparam('datac2coid', stripExtraChars(wire["data-c2c-oid"]));
+                } else {
+                    chatlog("[4.4]    -- data-c2c-oid is null");
+                }
+                if (wire["data-c2c-ccid"]) {
+                    chatlog("[4.4]    -- adding data-c2c-ccid=[" + wire["data-c2c-ccid"] + "]");
+                    addnHparam('datac2cccid', stripExtraChars(wire["data-c2c-ccid"]));
+                } else {
+                    chatlog("[4.4]    -- data-c2c-ccid is null");
+                }
+                if (wire["data-c2c-dtid"]) {
+                    chatlog("[4.4]    -- adding data-c2c-dtid=[" + wire["data-c2c-dtid"] + "]");
+                    addnHparam('datac2cdtid', stripExtraChars(wire["data-c2c-dtid"]));
+                } else {
+                    chatlog("[4.4]    -- data-c2c-dtid is null");
+                }
+
+                if (wire["data-c2c-eid"]) {
+                    chatlog("[4.4]    -- adding data-c2c-eid=[" + wire["data-c2c-eid"] + "]");
+                    addnHparam('datac2ceid', stripExtraChars(wire["data-c2c-eid"]));
+                } else {
+                    chatlog("[4.4]    -- datac2ceid is null");
+                }
+				/*Wharton A/B Test Start*/
+				if (cdc && cdc.nHc && cdc.nHc.whartonAB && cdc.nHc.whartonAB ==="B"){
+					addnHparam('prodParam', keyWordsCurrentURL()+"-Bvariant");
+				} else if (cdc && cdc.nHc && cdc.nHc.whartonAB && cdc.nHc.whartonAB ==="A"){
+					addnHparam('prodParam', keyWordsCurrentURL()+"-Avariant");
+				} else {
+					addnHparam('prodParam', keyWordsCurrentURL());
+				}
+				/*Wharton A/B Test End*/
+				
+                //addnHparam('prodParam', keyWordsCurrentURL());  //for now this is inside the wharton a/b test above
+
+                chatlog("[4.4]    -- adding detail for CP_GUTC cookie=[" + cpGutcVal + "]");
+                addnHparam('CookieInput', cpGutcVal || '');
+
+                chatlog("[4.4]    -- adding detail for doc URL=[" + document.URL + "]");
+                addnHparam('OriginatingURL', encodeURIComponent(stripExtraChars(document.URL)));
+
+                chatlog("[4.4]    -- adding detail for referring URL=[" + document.referrer + "]");
+                addnHparam('ReferringURL', encodeURIComponent(document.referrer));
+                chatlog("[4.4]    -- FINAL COUNTRY CODE FROM UID =[" + p.state.locale.country.visitor + "]");
+                chatlog("[4.4]    -- FINAL COUNTRY CODE FROM META TAG =[" + p.state.locale.country.page + "]");
+                if (p.state.locale.country.visitor) {
+                    chatlog("[4.4]    -- adding detail for visitor country FROM UID=[" + p.state.locale.country.visitor + "]");
+                    addnHparam('CountryInput', p.state.locale.country.visitor || '');
+                    chatlog("[4.4]    -- FINAL COUNTRY CODE DISPLAYING = [" + p.state.locale.country.visitor + "]");
+                } else {
+                    //check if there is no country code here from metat tag, so grab it from there and do the same for language
+                    chatlog("[4.4]    -- FINAL COUNTRY CODE DISPLAYING = [" + p.state.locale.country.page + "]");
+                    chatlog("[4.4]    -- adding detail for visitor country FROM METATAG. UID EMPTY=[" + p.state.locale.country.page + "]");
+                    addnHparam('CountryInput', p.state.locale.country.page || '');
+                }
+
+                if (p.state.locale.page) {
+                    chatlog("[4.4]    -- FINAL visitor language=[" + p.state.locale.page + "]");
+                    addnHparam('LanguageInput', p.state.locale.page || '');
+                    //chatlog("[4.4]    -- adding detail for visitor language=[" + p.state.locale.page + "]")
+                }
+
+                //chatlog("[4.4]    -- adding detail for depId=[" + svcConfig.deployment_id + "]; orgId=[" + svcConfig.org_id + "]");
+                //addnHparam('deploymentId', svcConfig.deployment_id);
+                //addnHparam('orgId', svcConfig.org_id);
+
+                p.state.flags.detailsAdded = true;
+                nhurl = nhurl.replace("datac2coid", "eloquaOfferId");
+                nhurl = nhurl.replace("datac2cccid", "eloquaCcid");
+                nhurl = nhurl.replace("datac2ceid", "eloquaEid");
+                nhurl = nhurl.replace("datac2cdtid", "eloquaDriveToId");
+                nhurl = nhurl.replace("oid", "eloquaOfferId");
+                nhurl = nhurl.replace("ccid", "eloquaCcid");
+                nhurl = nhurl.replace("dtid", "eloquaDriveToId");
+                nhurl = nhurl.replace("eid", "eloquaEid");
+                if(!nhurl.includes("eloquaCcid") || nhurl.includes("eloquaCcid=&")){
+                    let metaNodeCCID = document.querySelector('meta[name=CCID_Page]');
+                    if (!metaNodeCCID) {
+                        nhurl = nhurl +  "&eloquaCcid=cc001784";
+                    } else {
+                        nhurl = nhurl +  "&eloquaCcid=" + metaNodeCCID.getAttribute('content') || "cc001784";
+                    }
+                } 
+                cdc.nHc.nhurl = nhurl;
+                let nhurl_reactive;
+                
+              //  if (document.querySelector(".green-pill")){
+                    nhurl_reactive = nhurl + "&botLaunchMode=Inbound%20Chat%20Floater";
+                    chatlog("Green LUH Started");
+                    document.querySelector('.cds-proactive-chat#luh-proactive-menubutton').setAttribute("onclick", "trackEvent.event('link', {'lpos': 'Cisco Reactive Chat Fire','lid': 'Reactive chat'}); window.open('" + nhurl_reactive + "','cocoa','height=600,width=514');window.reactiveCocoaOn=1; sessionStorage['proactiveCocoaSession'] = JSON.stringify({'state':'off'});if (null !== document.getElementById('cocoa-proactice-chat')) document.getElementById('cocoa-proactice-chat').style.display = 'none';");
+                    document.querySelector('.cds-luh__CA#nhbtn').setAttribute("onclick", "trackEvent.event('link', {'lpos': 'Cisco Reactive Chat Fire','lid': 'Reactive chat'}); window.open('" + nhurl_reactive + "','cocoa','height=600,width=514');window.reactiveCocoaOn=1; sessionStorage['proactiveCocoaSession'] = JSON.stringify({'state':'off'});if (null !== document.getElementById('cocoa-proactice-chat')) document.getElementById('cocoa-proactice-chat').style.display = 'none';");
+                    replaceBuffInline();
+              /*  } else {
+
+                    nhurl_reactive = nhurl + "&botLaunchMode=Inbound%20Chat%20Floater%20Blue";
+                    chatlog("Test Blue of A/B Test is on page");
+                    var aTag = document.createElement("a");
+                    aTag.setAttribute("class", "vabutton");
+                    aTag.setAttribute("href", "javascript:void(0);");
+                    aTag.setAttribute("onclick", "trackEvent.event('link', {'lpos': 'Cisco Reactive Chat Fire','lid': 'Reactive chat'}); window.open('" + nhurl_reactive + "','cocoa','height=600,width=514');window.reactiveCocoaOn=1; sessionStorage['proactiveCocoaSession'] = JSON.stringify({'state':'off'});if (null !== document.getElementById('cocoa-proactice-chat')) document.getElementById('cocoa-proactice-chat').style.display = 'none';");
+                    aTag.innerHTML = "Chat with Sales";
+  
+                    isBuffWorking();
+                    if (!null === cocoaBotTranslateObject) {
+                        chatlog("PROACTIVE CHAT LOCALIZATION: Reading localization data from cocoaBotTranslateObject.");
+                        //console that its coming from the dictionary object
+                    } else {
+                        chatlog("PROACTIVE CHAT LOCALIZATION: NOT Reading localization data from cocoaBotTranslateObject. Falling back on hardcoded English.");
+                        //fallback on hardcoded english translation. also make sure to console that its falling back
+    
+                        //var cocoaBotTranslateObject={"Cisco_Proactive_Chat_Intro":"Welcome to Cisco!","Cisco_Chat_Now":"Chat with Sales","Cisco_Proactive_Chat_Content":"How can I help you?","Cisco_Proactive_Chat_Decline_Title":"Decline the chat invitation","Cisco_Proactive_Chat_Metrics_Group":"pop up chat","Cisco_Proactive_Chat_Decline":"No Thanks","Cisco_Proactive_Chat_Intro_Title":"Cisco:","Cisco_Proactive_Chat_Accept_Metrics_Item":"accept the chat invitation","Cisco_Proactive_Chat_Decline_Metrics_Item":"decline the chat invitation","Cisco_Proactive_Chat_Title":"Chat live with a Cisco representative","Cisco_Proactive_Chat_Accept_Title":"Accept the chat invitation","Cisco_Proactive_Chat_Accept":"Chat Now"};
+                        //chatlog(cocoaBotTranslateObject["Cisco_Chat_Now"]);
+                    }
+                } */
+
+                // create proactive chat here
+
+                // check if var proactiveCocoaOff = true (it means you dont use proactive chat on this page)
+                // check query string for parameter proactiveCocoaTimer=X , and change the timer from 60 seconds to X
+                // check if session storage exists 'cocoabot' (it means that user already said no to chat during this session)
+                // check if 60 seconds passed (only turn on chat after 60 seconds)
+                // check if reactive Cocoa Bot was used (onclick function on reactive button that sets var reactiveCocoaOn=true)
+                // check that NBA is not 0
+
+                // if the above checks are passed then show the proactive chat
+
+                //not all pages have the css file needed to show the proactive chat. TODO: in future the little css that's needed should be bundled with this file								
+                document.getElementsByTagName("head")[0].insertAdjacentHTML("beforeend", "<link rel=\"stylesheet\" href=\"/content/dam/cisco-cdc/site/core/chatbot/proactive_chat.css\" />");
+
+                function proactiveChatTimer(time, update, complete) {
+                    //we need to have an accurate count of 60 seconds before proactive bot shows up
+                    var start = new Date().getTime();
+                    var interval = setInterval(function() {
+                        var now = time - (new Date().getTime() - start);
+                        if (now <= 0) {
+                            clearInterval(interval);
+                            complete();
+                        } else
+                            update(Math.floor(now / 1000));
+                    }, 100);
+                    // the smaller this number, the more accurate the timer will be
+                }
+				
+                if (null === showProactiveConsole) {
+                    // there is no override
+                    showProactiveConsole = 0;
+                } else {
+                    showProactiveConsole = 1;
+                }
+                //logs the chat based on query string
+                function chatLogProactive(msg) {
+                    if (showProactiveConsole == 1) {
+                        console.log(JSON.stringify(msg));
+                    }
+                }
+
+                // define a simple XHR handler to gain independence from jQuery
+                function grabJson(params) {
+                    var xhr = false
+                      , resp = '';
+
+                    try {
+                        xhr = new XMLHttpRequest();
+                    } // most browsers
+                    catch (ignore) {
+                        // must be IE
+                        try {
+                            xhr = new ActiveXObject("Msxml2.XMLHTTP");
+                        } // IE
+                        catch (ignore) {
+                            // e2
+                            // must be _old_ IE
+                            try {
+                                xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                            } // try an older version
+                            catch (ignore) {
+                                // e3
+                                return false;
+                            }
+                        }
+                    }
+                    if (!xhr) {
+                        return false;
+                    }
+
+                    if (typeof params.success !== 'function') {
+                        params.success = function() {}
+                        ;
+                    }
+                    if (typeof params.error !== 'function') {
+                        params.error = function() {}
+                        ; 
+                    }
+
+                    xhr.onreadystatechange = function() {
+                        if (xhr.readyState === 4) {
+                            if (xhr.status === 200) {
+                                try {
+                                    resp = JSON.parse(xhr.responseText);
+                                } catch (syntaxError) {
+                                    return params.error(xhr, 'parsererror', syntaxError.message);
+                                }
+                                return params.success(resp, xhr.statusText, xhr);
+                            } else {
+                                return params.error(xhr, xhr.statusText, 'error');
+                            }
+                        }
+                    }
+                    ;
+
+                    xhr.open("GET", params.url, true);
+                    //xhr.open('GET', params.url + '?' + new Date().getTime(), true);
+
+                    if (params.hasOwnProperty('contentType')) {
+                        xhr.setRequestHeader('Content-Type', 'application/json');
+                    }
+
+                    if (params.hasOwnProperty('authority')) {
+                        xhr.setRequestHeader("Authority", params.authValue);
+                    }
+
+                    if (params.hasOwnProperty('withCredentials')) {
+                        xhr.withCredentials = false;
+                    }
+
+                    if (params.headers) {
+                        // jslint made me do this instead of 'for in'... *sigh*
+                        Object.keys(params.headers).forEach(function(key) {
+                            xhr.setRequestHeader(key, params.headers[key]);
+                        });
+                    }
+
+                    xhr.send(null);
+                    return xhr;
+                }
+                // end getJson()
+
+                var proactiveNBA;
+
+                function GetPropertyValue(obj1, dataToRetrieve) {
+                    return dataToRetrieve.split('.')// split string based on `.`
+                    .reduce(function(o, k) {
+                        return o && o[k];
+                        // get inner property if `o` is defined else get `o` and return
+                    }, obj1)
+                    // set initial value as object
+                }
+
+                function addMetrics(res) {
+                    if (res && res.data && res.data.cookie_id && res.data.p1 && res.data.threshold && res.data.model_id && res.data.prediction_table_id) {
+                        chatlog('[4.1] -- Adding Metrics for proactive modal agree.');
+                        cdc.util.addMetricsRule('.c2c-proactive-agree', {
+                            'lpos': 'pop up chat',
+                            'cookie_id': res.data.cookie_id,
+                            'p1': res.data.p1,
+                            'threshold': res.data.threshold,
+                            'model_id': res.data.model_id,
+                            'prediction_table_id': res.data.prediction_table_id,
+                            'action': 'accepted'
+                        });
+                        chatlog('[4.1] -- Adding Metrics for proactive modal dismiss.');
+                        cdc.util.addMetricsRule('.c2c-proactive-dismiss', {
+                            'cookie_id': res.data.cookie_id,
+                            'p1': res.data.p1,
+                            'threshold': res.data.threshold,
+                            'model_id': res.data.model_id,
+                            'prediction_table_id': res.data.prediction_table_id,
+                            'action': 'rejected'
+                        });
+                    }
+                }
+
+                function prepareProactiveModal() {
+                    return new Promise(function(resolve, reject) {
+                        var environment = cdcext.customEnvironment;
+
+                        //var environment = "prod";
+
+                        if (!environment || environment == "unknown") {
+                            environment = "prod";
+                        }
+
+                        var nbaURL = "https://nbbadataservice-" + environment + ".cisco.com/getuserdataV1";
+
+                        chatLogProactive("[1.5] -[proactive-cocoa] -- Begin to fetch user threshold data using url... " + nbaURL);
+                        grabJson({
+                            url: nbaURL,
+                            withCredentials: true,
+                            success: function(res) {
+                                //chatLogProactive("1.5 -[proactive-cocoa] -- User threshold data from callback = ", res);
+                                // chatLogProactive ("-------tempProactiveNBA-------->", tempProactiveNBA);
+                                // chatLogProactive ("-------res-------->", res);
+                                // chatLogProactive ("-------res.data-------->", res.data);
+                                // chatLogProactive ("-------res.data.hasOwnProperty-------->" + res.data.hasOwnProperty("c2c_popup_flag"));
+                                if (res && res.data && res.data.hasOwnProperty("c2c_popup_flag")) {
+                                    var tempProactiveNBA = GetPropertyValue(res.data, "c2c_popup_flag");
+                                    if (tempProactiveNBA == "1") {
+                                        chatLogProactive("[1.5] -[proactive-cocoa] -- NBA is 1 from API.");
+                                        proactiveNBA = 1;
+                                        chatLogProactive(res);
+                                        addMetrics(res);
+
+                                    } else if (tempProactiveNBA == "0") {
+                                        chatLogProactive("[1.5] -[proactive-cocoa] -- NBA is 0 from API.");
+                                        proactiveNBA = 0;
+                                        addMetrics(res);
+                                    } else {
+                                        chatLogProactive("[1.5] -[proactive-cocoa] -- NBA is not 1 or 0 from API so setting to 1.");
+                                        proactiveNBA = 1;
+                                        addMetrics(res);
+                                    }
+
+                                } else {
+                                    chatLogProactive("[1.5.1] -- NBA is returning a 404 message. Are you in Incognito Browser Mode? NBA will be set to 1.");
+                                    proactiveNBA = 1;
+                                    addMetrics(res);
+                                }
+                            },
+                            error: function(err) {
+                                chatLogProactive("[1.5] -[proactive-cocoa] -- Error fectching NBA data = " + err);
+                            }
+                        });
+
+                    }
+                    );
+                }
+                // end prepareProactiveModal()
+
+                if (null === cocoaPopupOverride) {
+                    // there is unknown override
+                    cocoaPopupOverride = 0;
+                } else {
+                    // there is an override
+                    if (cocoaPopupOverride === "1") {
+                        // show the override
+
+                        cocoaPopupOverride = 1;
+                    } else {
+                        // there is no override
+                        cocoaPopupOverride = 0;
+                    }
+                }
+                if (typeof proactiveCocoaOff === "undefined"){
+                    var proactiveCocoaOff = 1; //hide proactive in a/b test
+                } else {
+                    proactiveCocoaOff = 1;
+                }
+				
+                if ('undefined' !== typeof proactiveCocoaOff) {
+
+                    chatLogProactive("[1.0] -[proactive-cocoa] -- proactiveCocoaOff is true. Don't show Proactive Cocoa Chat.");
+                } else {
+
+                    chatLogProactive("[1.0] -[proactive-cocoa] -- proactiveCocoaOff is false. Show Proactive Cocoa Chat.");
+                    prepareProactiveModal();
+
+                    var proactiveCocoaTimer = urlParams.get('proactiveCocoaTimer');
+                    if ('undefined' !== typeof cdc && 'undefined' !== typeof cdc.proactiveCocoaTimer && typeof cdc.proactiveCocoaTimer === 'number') {
+                        proactiveCocoaTimer = cdc.proactiveCocoaTimer;
+                        chatLogProactive("[1.0] -[proactive-cocoa] -- Timer changed for A/B test to:  " + proactiveCocoaTimer + " seconds.");
+                    }
+                    if (null === proactiveCocoaTimer) {
+                        proactiveCocoaTimer = 60000;
+                        chatLogProactive("[1.1] -[proactive-cocoa] -- proactiveCocoaTimer remains at 60 seconds");
+                    } else {
+                        //proactiveCocoaTimer = 12000;
+                        chatLogProactive("[1.1] -[proactive-cocoa] -- proactiveCocoaTimer changed to " + proactiveCocoaTimer + " seconds");
+                        proactiveCocoaTimer *= 1000;
+                    }
+
+                    //const proactiveCocoaState = {'state':'off'};
+                    //sessionStorage['proactiveCocoaSession'] = JSON.stringify(proactiveCocoaState);
+                    if ('undefined' !== typeof sessionStorage['proactiveCocoaSession']) {
+                        //
+                        chatLogProactive("[1.2] -[proactive-cocoa] -- Had Chatbot Session. Do not show Proactive Chatbot");
+                    } else {
+                        chatLogProactive("[1.2] -[proactive-cocoa] -- First Chatbot Session. Show Proactive Chatbot");
+                        proactiveChatTimer(proactiveCocoaTimer, // milliseconds
+                        function(timeleft) {
+                            // called every step to update the visible countdown
+                            // document.getElementById('timer').innerHTML = timeleft+" second(s)";
+                            chatLogProactive(timeleft);
+                            //TODO: Rewrite to have this shown in console onnly if debug query string variable is 1
+
+                        }, function() {
+                            // what to do after
+                            chatLogProactive("[1.3] -[proactive-cocoa] -- Timer finished");
+                            if ('undefined' !== typeof reactiveCocoaOn) {
+                                chatLogProactive("[1.4] -[proactive-cocoa] -- Reactive Chatbot Used. Don't show Proactive Chat");
+                            } else {
+                                chatLogProactive("[1.4] -[proactive-cocoa] -- Reactive Chat not Used. Show Proactive Chatbot");
+                                //chatLogProactive("NBA Value = " + proactiveNBA);
+                                if (proactiveNBA === 1) {
+                                    chatLogProactive("[1.5] -[proactive-cocoa] -- NBA = 1. Show Proactive Chatbot");
+                                    if ((isBuffWorking == 1) && (typeof cocoaAB != "function")) {
+                                        chatLogProactive("[1.6] -[proactive-cocoa] -- Buff Service is Working. Show Proactive Cocoa Chat.");
+                                        chatLogProactive("[1.6.1] -[proactive-cocoa] -- NO A/B test Available. Show standard proactive chat.");
+
+                                        var a = 1
+                                          , b = 2;
+
+                                        var div = document.createElement('div');
+                                        div.setAttribute('class', 'dmc-proactivechat dm0 c2c-proactive-modal');
+                                        div.setAttribute('id', 'cocoa-proactice-chat');
+                                        div.setAttribute('style', 'position: fixed; top: 72%; left: 50%; transform: translate(-50%, -50%); z-index: 10000; animation-name: slide573340000004DIt; animation-duration: 1s; animation-iteration-count: 2; animation-direction: alternate; animation-timing-function: ease-in-out; animation-play-state: paused;');
+                                        div.setAttribute('data-config-metrics-item', 'prediction_table_id');
+                                        div.setAttribute('data-config-metrics-group', 'prediction_table_id');
+                                        let nhurl_proactive = nhurl + "&botLaunchMode=Inbound%20Chat%20Proactive%20popup";
+
+                                        div.innerHTML = `
+                              <div class="proac-head">
+                                <div class="cisco-logo"></div>
+                                <div class="proac-content">
+                                      <p>${cocoaBotTranslateObject["Cisco_Proactive_Chat_Title"]}</p>
+                                </div>
+                                <div class="cisco-icon">
+                                        <a class="c2c-proactive-dismiss" href="javascript:void(0)" onclick = "sessionStorage['proactiveCocoaSession'] = JSON.stringify({'state':'off'});document.getElementById('cocoa-proactice-chat').style.display = 'none';" alt="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Decline_Title"]}" title="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Decline_Title"]}" data-config-metrics-item="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Decline_Metrics_Item"]}" data-config-metrics-group="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Metrics_Group"]}"></a>
+                                </div>
+                                </div>
+                              <div class="proac-container">
+                                    <p class="content">${cocoaBotTranslateObject["Cisco_Proactive_Chat_Intro_Title"]}</p>
+                                <ul>
+                                      <li>${cocoaBotTranslateObject["Cisco_Proactive_Chat_Intro"]}</li>
+                                      <li>${cocoaBotTranslateObject["Cisco_Proactive_Chat_Content"]}</li>
+                                </ul>
+                              </div>
+                              
+                              <ul class="cta">
+                                  <li><a href="javascript:void(0);" onclick = "sessionStorage['proactiveCocoaSession'] = JSON.stringify({'state':'off'});document.getElementById('cocoa-proactice-chat').style.display = 'none';" alt="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Decline_Title"]}" title="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Decline_Title"]}" data-config-metrics-item="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Decline_Metrics_Item"]}" data-config-metrics-group="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Metrics_Group"]}" class="dmc-button atlantic pal-6 c2c-proactive-dismiss">${cocoaBotTranslateObject["Cisco_Proactive_Chat_Decline"]}</a></li>
+                                  <li><a href="javascript:void(0);" onclick = "trackEvent.event('link', {'lpos': 'Cisco Proactive Chat Fire','lid': 'pop-up chat'}); window.open('${nhurl_proactive}','cocoa','height=600,width=514');sessionStorage['proactiveCocoaSession'] = JSON.stringify({'state':'off'});document.getElementById('cocoa-proactice-chat').style.display = 'none';" alt="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Accept_Title"]}" title="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Accept_Title"]}" data-config-metrics-item="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Accept_Metrics_Item"]}" data-config-metrics-group="${cocoaBotTranslateObject["Cisco_Proactive_Chat_Metrics_Group"]}" class="dmc-button atlantic pal-4 c2c-proactive-agree">${cocoaBotTranslateObject["Cisco_Proactive_Chat_Accept"]}</a></li>
+                              </ul>
+                          `;
+
+                                        if (runOnlyOnceCounter === 1) {
+                                            document.getElementsByTagName('body')[0].appendChild(div);
+                                            runOnlyOnceCounter++;
+                                        }
+                                    } else if ((isBuffWorking == 1) && (typeof cocoaAB === "function")) {
+
+                                        cocoaAB(cocoaBotTranslateObject, cdc.nHc.nhurl);
+                                        chatLogProactive("[1.6] -[proactive-cocoa] -- Buff Service is Working. Show Proactive Cocoa Chat.");
+                                        chatLogProactive("[1.6.1] -[proactive-cocoa] -- A/B test Available. Show standard proactive chat.");
+
+                                    } else {
+                                        chatLogProactive("[1.6] -[proactive-cocoa] -- Buff Service is NOT Working. DO NOT Show Proactive Cocoa Chat.");
+                                    }
+                                } else {
+                                    chatLogProactive("[1.5] -[proactive-cocoa] -- NBA = 0 or c2cPopupOverride=1. Don't show Proactive Chatbot");
+                                }
+                            }
+
+                        });
+                    }
+
+                }
+
+                //end proactive chat							
+
+            } else {
+                chatlog("[4.4]    -- chat.init() has run once already, not adding custom details");
+            }
+            chatlog("[4.4] -- end Adapter.setup()");
+        }
+        ;
+        // end this.setup()
+        chatlog("[0.4]          -- end Adapter constructor");
+    }
+    // end Adapter()
+
+    // AS: Left myState pretty much as is, TO DO: Decide with Duy what to remove
+    function getnHState() {
+        if (!myState) {
+            myState = {
+                "version": "1.2",
+                "buttonMapUrl": "/content/dam/cisco-cdc/site/core/chatbot/buttonMapper.json",
+                "chatNodes": null,
+                "debug": "",
+                "entitlement": "",
+                "environment": "",
+                "initCounter": 0,
+                "initQ": [],
+                "flags": {
+                    "verbose": false,
+                    "exit": false,
+                    "test": false,
+                    "gotParams": false,
+                    "localeDetermined": false,
+                    "mapperJsonLoaded": false,
+                    "proactiveModalWired": false,
+                    "detailsAdded": false,
+                    "clearCache": false,
+                    "initRunning": false
+                },
+                "locale": {
+                    "page": "",
+                    "visitor": "",
+                    "chosen": "",
+                    "country": {},
+                    // "page" and "visitor"
+                    "lang": {}// "page" and "visitor"
+                },
+                "override": {
+                    "buttonId": "",
+                    "proactiveId": "",
+                    "entitlement": "",
+                    "locale": ""
+                },
+                "timestamp": {
+                    "all": {},
+                    "json": {},
+                    "deployment": {}
+                },
+                "events": []
+            };
+        }
+        return myState;
+    }
+    // end of getnHState()
+
+    /* nHChat() is an inner class, instantiated via 'new'
+         * - its 'init' method is exposed by the outer chat controller instance via 'init()'
+         * - the instance itself is exposed via the outer chat controller instance via 'getChatInstance()'
+         */
+
+    function nHChat(selector) {
+        var state = getnHState()
+          , activeParams = {
+            // handlers for the querystring params we want to react to
+            'cocoaDebug': function(input) {
+                state.debug = input;
+                state.flags.verbose = true;
+                // turn on verbosity if in debug mode
+            },
+
+            'cocoaverbose': // can turn off debug verbosity
+            function(input) {
+                if (input) {
+                    state.flags.verbose = true;
+                } else {
+                    state.flags.verbose = false;
+                }
+            },
+
+            'cocoatest': // AS: pass kptester=1?
+            function(input) {
+                if (input) {
+                    state.flags.test = true;
+                } else {
+                    state.flags.test = false;
+                }
+            },
+
+            'cocoaclearCache': // AS QUESTION:  purpose of this?  do we need it?
+            function(input) {
+                if (input) {
+                    state.flags.clearCache = true;
+                } else {
+                    state.flags.clearCache = false;
+                }
+            },
+
+            'cocoabuttonOverride': // AS: may be useful for testing or demos?
+            function(input) {
+                state.override.buttonId = input;
+            },
+
+            'cocoalocaleOverride': // AS: may be useful for testing or demos?
+            function(input) {
+                state.override.locale = input;
+            },
+
+            'cocoaentitlementOverride': // AS: may be useful for testing or demos in future?
+            function(input) {
+                state.override.entitlement = input;
+            }
+
+        };
+        // end 'activeParams' object
+
+        /*
+                 *        PRIVATE METHODS
+                 *
+                 */
+        // AS: used everywhere for logging; left as-is
+        function chatlog(msg, msg2) {
+            if (state.flags.verbose) {
+                if (typeof msg === "object") {
+                    if (JSON) {
+                        console.dir(JSON.parse(JSON.stringify(msg)));
+                    } else {
+                        console.dir(msg);
+                    }
+                } else {
+                    if (!msg2) {
+                        msg2 = "";
+                    }
+                    console.log('[' + state.initCounter + '] ' + msg, msg2);
+                }
+            }
+        }
+
+        // AS: called by parsenHParams
+        function logInit() {
+            chatlog("=============");
+            chatlog("chatController version " + state.version + ": initializing...");
+            chatlog("=============");
+            chatlog("log message prefixes:");
+            chatlog("  0.x -- init()/prepChain()");
+            chatlog("  1.x -- determineLocale()");
+            // AS: Need this
+            chatlog("  1.x -- do not currently need determineAccessLevel() but may in the future");
+            // AS: Don't need this
+            chatlog("  2.x -- loadButtonMap()");
+            // AS: Need this
+            chatlog("  4.x -- wireButtons()");
+            chatlog("  5.x -- checkQueue()");
+            chatlog("-------------");
+        }
+        // end logInit()
+
+        // AS: Used to load ButtonMapper file -- replacement for jquery JSON -- to support Cisco pages that do not use jquery
+        function getJson(params) {
+            var xhr = false
+              , resp = '';
+
+            try {
+                xhr = new XMLHttpRequest();
+            } // most browsers
+            catch (ignore) {
+                // must be IE
+                try {
+                    xhr = new ActiveXObject("Msxml2.XMLHTTP");
+                } // IE
+                catch (ignore) {
+                    // e2
+                    // must be _old_ IE
+                    try {
+                        xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                    } // try an older version
+                    catch (ignore) {
+                        // e3
+                        return false;
+                    }
+                }
+            }
+            if (!xhr) {
+                return false;
+            }
+
+            if (typeof params.success !== 'function') {
+                params.success = function() {}
+                ;
+            }
+            if (typeof params.error !== 'function') {
+                params.error = function() {}
+                ;
+            }
+
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        try {
+                            resp = JSON.parse(xhr.responseText);
+                        } catch (syntaxError) {
+                            return params.error(xhr, 'parsererror', syntaxError.message);
+                        }
+                        return params.success(resp, xhr.statusText, xhr);
+                    } else {
+                        return params.error(xhr, xhr.statusText, 'error');
+                    }
+                }
+            }
+            ;
+
+            xhr.open("GET", params.url, true);
+            //xhr.open('GET', params.url + '?' + new Date().getTime(), true);
+
+            if (params.hasOwnProperty('contentType')) {
+                xhr.setRequestHeader('Content-Type', 'application/json');
+            }
+
+            if (params.hasOwnProperty('authority')) {
+                xhr.setRequestHeader("Authority", params.authValue);
+            }
+
+            if (params.hasOwnProperty('withCredentials')) {
+                xhr.withCredentials = false;
+            }
+
+            if (params.headers) {
+                // jslint made me do this instead of 'for in'... *sigh*
+                Object.keys(params.headers).forEach(function(key) {
+                    xhr.setRequestHeader(key, params.headers[key]);
+                });
+            }
+
+            xhr.send(null);
+            return xhr;
+        }
+        // end getJson()
+
+        // jQuery off() replacement...
+        function removeEvent(node, type, handler) {
+            if (!node) {
+                return;
+            }
+            if (!type && node.length) {
+                handler = node[2];
+                type = node[1];
+                node = node[0];
+            }
+
+            if (node.detachEvent) {
+                node.detachEvent('on' + type, handler);
+            } else {
+                node.removeEventListener(type, handler);
+            }
+        }
+
+        // jQuery on() replacement...  (e.g. onclick)
+        function addEvent(node, type, handler, state) {
+            if (!type && node.length) {
+                state = node[3];
+                handler = node[2];
+                type = node[1];
+                node = node[0];
+            }
+            chatlog("begin addEvent() -- checking on attachEvent for node " + node);
+            if (typeof node.attachEvent !== 'undefined') {
+                chatlog("-- attachEvent exists, calling it");
+                node.attachEvent('on' + type, handler);
+            } else {
+                chatlog("-- no attachEvent, using addEventListener instead");
+                node.addEventListener(type, handler);
+            }
+
+            if (state) {
+                state.events.push([node, type, handler]);
+            }
+        }
+
+        // AS: KEEP setCookie
+        function setCookie(args) {
+            // LEGACY - support old signature (string, string[, int])
+            if (!args.cookieName) {
+                args = {
+                    cookieName: args,
+                    cookieValue: arguments[1]
+                };
+                if (arguments.length > 2) {
+                    args.days = arguments[2];
+                }
+            }
+
+            var expireStr = '';
+            var pathStr = '';
+            var domainStr = '';
+            var msecs = parseInt(args.msecs);
+            if (isNaN(msecs) && args.days) {
+                msecs = args.days * 24 * 60 * 60 * 1000;
+            }
+
+            if (!isNaN(msecs)) {
+                var ex = new Date();
+                ex.setTime(ex.getTime() + msecs);
+                expireStr = "; expires=" + ex.toUTCString();
+            }
+            if (args.path) {
+                pathStr = "; path=" + args.path + ";";
+            } else {
+                pathStr = "; path=/;";
+            }
+            if (args.domain) {
+                domainStr = "; domain=" + args.domain;
+            }
+            try {
+                document.cookie = args.cookieName + "=" + escape(args.cookieValue) + expireStr + pathStr + domainStr;
+            } catch (e) {
+                return false;
+            }
+            return true;
+        }
+
+        // AS: KEEP getCookie
+        function getCookie(args) {
+            // LEGACY - if args is a string and not an object
+            if (!args.cookieName) {
+                args = {
+                    cookieName: args
+                };
+            }
+
+            var frags = document.cookie.split(/\s*;\s*/), dict = {}, frag, ioe, name, val, i;
+
+            for (i = 0; i < frags.length && (frag = frags[i]); i++) {
+                ioe = frag.indexOf('=');
+                // expecting "foo=bar"
+                if (ioe < 0) {
+                    continue;
+                }
+                name = unescape(frag.substring(0, ioe));
+                val = unescape(frag.substring(ioe + 1));
+                dict[name] = val;
+            }
+
+            return dict[args.cookieName] || "";
+        }
+
+        // AS: KEEP getParameter
+        function getParameter(param, url) {
+            param = param + "=";
+            var qs;
+            if (url) {
+                qs = url.slice(url.indexOf('?') + 1);
+            }
+            qs = qs || window.location.search;
+            var val = "";
+            var start = qs.indexOf(param);
+            if (start != -1) {
+                start += param.length;
+                var end = qs.indexOf("&", start);
+                if (end == -1) {
+                    end = qs.length;
+                }
+                val = qs.substring(start, end);
+            }
+            return val;
+        }
+
+        // AS: KEEP parsenHParams
+        // grab any meaningful querystring params, ignore the rest
+        function parsenHParams() {
+            var frags, keyval, i;
+            if (state.flags.gotParams) {
+                logInit();
+                chatlog("[0.1] -- begin parsenHParams(), already ran once, exiting.");
+                return;
+            }
+
+            frags = location.search.substr(1).split("&");
+            for (i = 0; i < frags.length; i += 1) {
+                keyval = frags[i].split("=");
+
+                if (activeParams[keyval[0]]) {
+                    activeParams[keyval[0]](keyval[1]);
+                    if (keyval[0] === "nHverbose") {
+                        logInit();
+                        chatlog("[0.0] begin init()", selector);
+                        chatlog("[0.0] -- calling parsenHParams()");
+                        chatlog("[0.1] -- begin parsenHParams()...");
+                    }
+                }
+                chatlog("[0.1]    -- parsed chunk #" + i + " ('" + frags[i] + "')");
+            }
+
+            state.flags.gotParams = true;
+            // make the method a one-timer
+            chatlog("[0.1] -- end parsenHParams()...");
+        }
+        // end parsenHParams()
+
+        // AS: KEEP startTimer for logging timing to load external files like buttonMapper - if keeping logging
+        function startTimer(key) {
+            if (!state.timestamp.hasOwnProperty(key)) {
+                state.timestamp[key] = {};
+            }
+            state.timestamp[key].start = new Date();
+        }
+
+        // AS: KEEP stopTimer - if keeping logging
+        function stopTimer(key) {
+            state.timestamp[key].stop = new Date();
+        }
+
+        // AS: keep reportInterval for logging - if keeping logging
+        function reportInterval(key, prefix, indent) {
+            var start = state.timestamp[key].start, stop = state.timestamp[key].stop, i;
+
+            state.timestamp[key].total = (stop - start);
+
+            if (prefix) {
+                prefix = '[' + prefix + '] ';
+            } else {
+                prefix = '';
+            }
+
+            if (indent) {
+                for (i = 0; i < indent; i += 1) {
+                    prefix += '   ';
+                }
+            }
+
+            //chatlog("   -- start time: " + start.toISOString());
+            //chatlog("   -- stop time:  " + stop.toISOString());
+
+            chatlog(prefix + "-- " + key + " start time: " + start.toString() + " and " + start.getMilliseconds() + " milliseconds");
+            chatlog(prefix + "-- " + key + " stop time:  " + stop.toString() + " and " + stop.getMilliseconds() + " milliseconds");
+            chatlog(prefix + "-- " + key + " total time: " + state.timestamp[key].total + " millisec");
+        }
+
+        //AS: finish called when execution of promise is complete to stop time & write to the log if verbose enabled
+        function finish() {
+            stopTimer("all");
+            if (state.flags.verbose) {
+                chatlog("-------------");
+                chatlog("-- begin finish(); total execution timing info:");
+                reportInterval("all", "", 1);
+                chatlog("-- end finish()");
+                chatlog("----> exiting current execution chain, need to check queue");
+            }
+        }
+        // end finish()
+
+        // AS: Keep - loads the ButtonMapper file- left pretty much as-is
+        function loadButtonMap(ignore) {
+            return new Promise(function(resolve, reject) {
+                chatlog("-------------");
+                chatlog("[2.0] begin loadButtonMap()");
+                if (state.flags.mapperJsonLoaded) {
+                    chatlog("[2.0] -- button mapper JSON is already loaded, done");
+                    chatlog("[2.0] end loadButtonMap()");
+                    resolve(state);
+                    return;
+                }
+
+                startTimer("json");
+                chatlog("[2.0] -- calling ajax() to get buttonMapper.json from " + state.buttonMapUrl);
+                getJson({
+                    url: state.buttonMapUrl,
+                    success: function(buttonMap) {
+                        // statusStr, xhr
+                        var locale;
+                        stopTimer("json");
+
+                        chatlog("[2.1] -- begin callback for loadButtonMap()'s getJson()");
+                        reportInterval("json", "2.1", 1);
+
+                        if (!buttonMap || typeof buttonMap !== 'object') {
+                            chatlog("[2.1]    -- ERROR, buttonMap is not defined or is empty!");
+                            chatlog(buttonMap);
+                            chatlog("[2.1] -- end callback for loadButtonMap()'s getJson()");
+                            reject("ERROR, buttonMap is not defined or is empty!");
+                            // AS: TO DO: see what happens if buttonmapper file is not found
+                            // AS: Change behavior to setup default buttonid if buttonmapper not found (in state object?)
+                        }
+
+                        if (!buttonMap.CONFIG || typeof buttonMap.CONFIG !== 'object') {
+                            chatlog("[2.1]    -- ERROR, buttonMap CONFIG is not defined or is empty!");
+                            chatlog(buttonMap);
+                            chatlog("[2.1] -- end callback for loadButtonMap()'s getJson()");
+                            reject("ERROR, buttonMap CONFIG is not defined or is empty!");
+                        }
+
+                        //state.envConfig = buttonMap.CONFIG;
+                        //chatlog("[2.1]    -- LiveAgent config settings from JSON:", state.envConfig);
+                        //chatlog(state.envConfig);
+                        state.flags.mapperJsonLoaded = true;
+
+                        chatlog("[2.1]    -- getting button info from buttonMapper");
+                        if (buttonMap[state.locale.chosen]) {
+                            chatlog("[2.1]    -- found an entry for calculated locale [" + state.locale.chosen + "]");
+                            locale = state.locale.chosen;
+                        } else if (state.locale.page && buttonMap[state.locale.page]) {
+                            chatlog("[2.1]    -- no entry for calculated locale [" + state.locale.chosen + "]");
+                            chatlog("[2.1]    ----> using page locale [" + state.locale.page + "]...");
+                            locale = state.locale.page;
+                        } else {
+                            // UC7: default to en_US
+                            chatlog("[2.1]    -- ALERT: UC7 -- no button settings for calculated OR page locale");
+                            chatlog("[2.1]    ----> using 'en_US' instead");
+                            locale = 'en_US';
+                        }
+
+                        // pull current buttonids from map here and pass those to wireButtons()...
+                        state.buttonInfo = {
+                            'buttonId': buttonMap[locale]["button-id"],
+                            'proactiveId': buttonMap[locale]["proactive-id"],
+                            'ecid': buttonMap[locale].ECID,
+                            'dtid': buttonMap[locale].DTID,
+                            'ccid': buttonMap[locale].CCID,
+                            'oid': buttonMap[locale].OID,
+                            'eid': ""
+                        };
+
+                        chatlog("[2.1]    -- buttonId    = [" + state.buttonInfo.buttonId + "]");
+                        chatlog("[2.1]    -- proactiveId = [" + state.buttonInfo.proactiveId + "]");
+                        chatlog("[2.1]    -- ecid = [" + state.buttonInfo.ecid + "]");
+                        chatlog("[2.1]    -- dtid = [" + state.buttonInfo.dtid + "]");
+                        chatlog("[2.1]    -- ccid = [" + state.buttonInfo.ccid + "]");
+                        chatlog("[2.1]    -- oid  = [" + state.buttonInfo.oid + "]");
+                        chatlog("[2.1] -- end callback for loadButtonMap()'s ajax()");
+
+                        resolve(state);
+                    },
+
+                    error: function(ignore, statusStr, error) {
+                        // xhr
+                        chatlog("[2.1] ***ALERT***");
+                        chatlog("[2.1] ***ALERT*** -- getJson() of buttonMapper FAILED - possible syntax error in " + state.buttonMapUrl + " ??");
+                        chatlog("[2.1] ***ALERT*** --> statusStr: " + statusStr);
+                        chatlog("[2.1] ***ALERT*** --> error: " + error);
+                        chatlog("[2.1] ***ALERT*** --> Try checking the JSON by pasting it into http://jsonlint.com/");
+                        chatlog("[2.1] ***ALERT***");
+                        reject(error);
+                    }
+                });
+
+                chatlog("[2.0] ----> finished calling ajax(); look for its callback [2.1] to fire...");
+                chatlog("[2.0] end loadButtonMap()");
+            }
+            );
+            // end Promise
+        }
+        // end 'loadButtonMap()'
+
+        // AS: Commenting for now - can add later if support needed
+        // function clearUidCache (key) {
+        //        var uid = null;
+        //        if (key && JSON) { // crazy MSIE...
+        //                uid = JSON.parse(localStorage.getItem('userInfoDispatcher'));
+        // be careful, uid (or uid.profile) might still be null
+        //                if (uid && uid.profile) {
+        //                        uid.profile[key] = null;
+        //                        localStorage.setItem('userInfoDispatcher',JSON.stringify(uid));
+        //                }
+        //        }
+        //        else {
+        //                localStorage.removeItem('userInfoDispatcher');
+        //        }
+        //}
+
+        // AS: Keep getMetaValue
+        function getMetaValue(name) {
+            var metaNode = document.querySelector('meta[name=' + name + ']');
+            if (!metaNode) {
+                return "unknown";
+            }
+            return metaNode.getAttribute('content') || "unknown";
+        }
+
+        // AS: Don't need initially but may be useful long term (ex giving employee or partner specific ruleid)
+        function determineAccessLevel(ignore) {
+            return new Promise(function(resolve, reject) {
+                chatlog("-------------");
+                chatlog("[1.0] begin determineAccessLevel()");
+
+                if (state.flags.accessLevelDetermined) {
+                    chatlog("[1.0] this has already run, entitlement is " + state.entitlement + "; returning...");
+                    resolve(state);
+                    // success, can proceed in Promise chain to loadButtonMap
+                    chatlog("[1.0] end determineAccessLevel()");
+                    return;
+                }
+
+                chatlog("[1.0] -- calling userInfoDispatcher.getUserProfile(contactInfo)");
+                chatlog("[1.0] -- look for its callback [1.1] to fire...");
+                userInfoDispatcher.getUserProfile({
+                    "listOfDataFields": ["contactInfo"],
+                    // used to also get 'cps' and 'vps' but do not use them
+                    "callback": function(uid) {
+                        chatlog("[1.1] -- begin callback for userInfoDispatcher.getUserProfile()");
+                        chatlog("[1.1]    -- profile object:", uid);
+                        chatlog(uid);
+
+                        if (uid.contactInfo && typeof uid.contactInfo === "object") {
+                            if (uid.contactInfo.accesslevel === "4") {
+                                state.entitlement = "employee";
+                            } else {
+                                // TODO: figure out what the other numeric codes map to (ex: partner)
+                                state.entitlement = uid.contactInfo.accesslevel;
+                            }
+                        } else {
+                            chatlog("[1.1]    -- ALERT! uid.contactInfo is undefined or not an object!");
+                        }
+
+                        // debug setting to allow entitlement override
+                        if (state.override.entitlement) {
+                            chatlog("[1.1]    -- user entitlement '" + state.entitlement + "' has been overidden to '" + state.override.entitlement + "'");
+                            state.entitlement = state.override.entitlement;
+                        }
+
+                        chatlog("[1.1]    -- user entitlement is '" + state.entitlement + "'");
+
+                        // UC1: exit condition -- entitlement=employee
+                        /* AS: This doesn't apply for now -- commented out for now
+                                                   may add handling in a later phase (ex. send partners & employees to specific ruleid)
+                                                */
+
+                        /* 
+                                                                                                if (state.entitlement) {
+                                                        if (state.entitlement === "employee" || state.entitlement === 4 || state.entitlement === "4") {
+                                                                chatlog("[1.1]    -- user is employee");
+                                                                chatlog("[1.1]    -- [to override, use 'entitlementOverride=1' in the querystring]");
+                                                                                                                                reject("-- user is employee, exiting (Use Case 1)");
+                                                                return;
+                                                        }
+                                                }
+                                                                                                */
+                        chatlog("[1.1] -- end callback for userInfoDispatcher.getUserProfile()");
+
+                        // AS: check for values like name, email, etc that we can pass to VA
+                        if (uid.contactInfo && typeof uid.contactInfo === "object") {
+                            if (uid.contactInfo.accesslevel === "4") {
+                                state.entitlement = "employee";
+                            } else {
+                                // TODO: figure out what the other numeric codes map to...
+                                state.entitlement = uid.contactInfo.accesslevel;
+                            }
+                        } else {
+                            chatlog("[1.1]    -- ALERT! uid.contactInfo is undefined or not an object!");
+                        }
+
+                        state.flags.accessLevelDetermined = true;
+                        resolve(state);
+                        // success, can proceed in Promise chain to loadButtonMap
+                    }
+                });
+                // end cdc.userInfoDispatcher.getUserProfile()
+
+                chatlog("[1.0.1] end determineAccessLevel()");
+            }
+            );
+            // end Promise
+        }
+        // end determineAccessLevel()
+
+        // figure out the user's locale country and language codes, to derive buttonMapper key
+        // AS: Left pretty much as-is
+        //async function determineLocale(ignore) {
+		function determineLocale(ignore) {
+            // (chat)
+			//await new Promise(resolve => setTimeout(resolve, 1000));
+            return new Promise(function(resolve, reject) {
+                chatlog("-------------");
+                chatlog("[1.0] begin determineLocale()");
+
+                if (state.flags.localeDetermined) {
+                    chatlog("[1.0] this has already run, final locale is: '" + state.locale.chosen + "'; returning...");
+                    resolve(state);
+                    // success, can proceed in Promise chain to loadButtonMap
+                    chatlog("[1.0] end determineLocale()");
+                    return;
+                }
+
+                // grab page locale info from page's meta tags
+                //  <meta name="language" content="en"  />
+                //  <meta name="country" content="US"  />
+                state.locale.country.page = getMetaValue('country');
+                state.locale.lang.page = getMetaValue('language');
+                state.locale.page = state.locale.lang.page + '_' + state.locale.country.page;
+                chatlog("[1.0] -- page meta tags locale=[" + state.locale.page + "]");
+
+                // in test environments and sandboxes, uid fails because the login state is unobtainable
+                state.currAuthStatus = cdc.nHc.authStatus;
+                cdc.nHc.authStatus = "valid";
+                // the other useful value is "anonymous"
+                chatlog("[1.0] -- curr authStatus is: " + state.currAuthStatus);
+
+                // weird edge case for testers switching locales, but uid caches locale info...
+                // AS: Commenting for now - can add later if support needed
+                // if (state.flags.clearCache) {
+                //        chatlog("[1.0] -- UID cache before clearing:");
+                //        chatlog(JSON.parse(localStorage.getItem('userInfoDispatcher')));
+                //        chatlog("[1.0] -- clearing userInfoDispatcher localStorage cache before calling userInfoDispatcher.getUserProfile()");
+                //        clearUidCache();
+                //}
+
+                chatlog("[1.0] -- calling userInfoDispatcher.getUserProfile(locale, dsc)");
+                chatlog("[1.0] -- look for its callback [1.1] to fire...");
+                userInfoDispatcher.getUserProfile({
+                    "listOfDataFields": ["locale", "dsc"],
+                    // used to also get 'cps' and 'vps' but do not use them
+                    "callback": function(uid) {
+                        cdc.nHc.authStatus = state.currAuthStatus;
+                        chatlog("[1.1] -- begin callback for userInfoDispatcher.getUserProfile()");
+                        chatlog("[1.0]    -- curr authStatus is: " + cdc.nHc.authStatus);
+                        chatlog("[1.1]    -- profile object:", JSON.stringify(uid));
+                        //chatlog("UIDUID: "+JSON.stringify(uid));
+                        if (uid && uid.dsc && uid.dsc.netid && uid.dsc.netid.country_code){
+                            chatlog("DSC: " + uid.dsc.netid.country_code);
+                        } 
+                        
+                        if (uid && uid.locale && uid.locale.country_code){
+                            chatlog("Locale: " + uid.locale.country_code);
+                        } 
+                        if (uid.locale && typeof uid.locale === "object" && Object.keys(uid.locale).length > 0) {
+                            state.locale.lang.visitor = uid.locale.language_code || "";
+                            if (uid && uid.locale && uid.locale.country_code){
+                                state.locale.country.visitor = uid.locale.country_code || "";
+                            } else {
+                                state.locale.country.visitor = "";
+                            }
+                            if (uid.locale.lang_unknown) {
+                                chatlog("[1.1]       -- UID could not find a lang for '" + state.locale.country.visitor + "'");
+                                chatlog("[1.1]       -- UID defaulted to using '" + state.locale.lang.visitor + "'");
+                            }
+
+                        } else if (uid.dsc && typeof uid.dsc === "object" && Object.keys(uid.dsc).length > 0 && uid.dsc.netid && typeof uid.dsc.netid === "object" && Object.keys(uid.dsc.netid).length > 0) {
+                            state.locale.country.visitor = uid.dsc.netid.country_code || "";
+
+                            chatlog("[1.1]    -- ALERT! uid.dsc is defined");
+                        } else {
+                            chatlog("[1.1]    -- ALERT! uid.locale/uid.dsc are not defined or not objects!");
+                        }
+
+                        chatlog("[1.1]    -- user's language=[" + state.locale.lang.visitor + "]");
+                        chatlog("[1.1]    -- user's country=[" + state.locale.country.visitor + "]");
+                        cdc.nHc.countryCode = state.locale.country.visitor;
+                        if (state.locale.country.visitor) {
+							if (state.locale.lang.visitor) {
+								chatlog("[1.1]    -- Country determined=[" + state.locale.country.visitor + "]");
+	                            state.locale.visitor = state.locale.lang.visitor + "_" + state.locale.country.visitor;
+								chatlog("[1.1]    -- Language determined=[" + state.locale.lang.visitor + "]");
+							} else {
+								//alert(document.querySelector('meta[name="language"]').content);
+								state.locale.lang.visitor = document.querySelector('meta[name="language"]').content;
+								chatlog("[1.1]    -- Language from Meta Tag=[" + state.locale.lang.visitor + "]");
+							}
+                            chatlog("[1.1]    -- user's locale=[" + state.locale.visitor + "]");
+                            chatlog("[1.1]    ----> UC4 and UC8: use visitor's locale for button lookup");
+                            state.locale.chosen = state.locale.visitor;
+                        } else {
+                            state.locale.visitor = "";
+                            chatlog("[1.1]    -- cannot determine user's locale!");
+                            chatlog("[1.1]    ----> UC3 and UC9: use page locale for button lookup");
+                            state.locale.chosen = state.locale.page;
+                        }
+
+                        if (state.override.locale) {
+                            chatlog("[1.1]    -- locale override has been triggered [" + state.override.locale + "]");
+                            state.locale.chosen = state.override.locale;
+                        }
+
+                        chatlog("[1.1]    -- final locale is: '" + state.locale.chosen + "'");
+                        chatlog("[1.1] -- end callback for userInfoDispatcher.getUserProfile()");
+
+                        state.flags.localeDetermined = true;
+                        //resolve(state);
+                        // success, can proceed in Promise chain to determineAccessLevel
+		                chatlog("nick Is User Dispatcher Providing DSC / Locale? : " + state.flags.localeDetermined);
+		                if (state.flags.localeDetermined === false) {
+		                    chatlog("[1.0.2] WARNING - Can not read DSC or LOCALE from User Info Dispatcher - falling back to Page Meta tags");
+		
+		                    state.locale.visitor = "";
+		                    chatlog("[1.1]    -- cannot determine user's locale!");
+		                    chatlog("[1.1]    ----> UC3 and UC9: use page locale for button lookup");
+		                    state.locale.chosen = state.locale.page;
+		                    if (state.override.locale) {
+		                        chatlog("[1.1]    -- locale override has been triggered [" + state.override.locale + "]");
+		                        state.locale.chosen = state.override.locale;
+		                    }
+		
+		                    chatlog("[1.1]    -- final locale is: '" + state.locale.chosen + "'");
+		                    chatlog("[1.1] -- end callback for userInfoDispatcher.getUserProfile()");
+		
+		                    state.flags.localeDetermined = true;
+		                   
+		                    // success, can proceed in Promise chain to determineAccessLevel
+		                }
+						(function() {
+							var validUrls = [
+							'/site/us/en/about/contact-cisco/index.html',
+							'/site/us/en/products/security/breach-protection/index.html',
+							'/site/us/en/about/legal/contract-experience/index.html',
+							'/site/us/en/solutions/reimagine-applications/index.html',
+							'/site/us/en/solutions/artificial-intelligence/index.html'
+							];
+							
+							// Check if the current URL is in the list of valid URLs
+							if (validUrls.indexOf(window.location.pathname) !== -1) {
+								var checkInterval;
+								var checkCount = 0;
+								
+								// Function to check for the variable
+								var checkForVariable = function() {
+								// If the variable exists or we've checked 20 times (2 seconds), clear the interval
+									if (typeof cdc !== 'undefined' && cdc.nHc && cdc.nHc.whartonAB || checkCount >= 20) {
+										clearInterval(checkInterval);
+										console.log('Variable found:'+checkCount);
+										 resolve(state);
+									}
+									if (checkCount >= 20) {
+										clearInterval(checkInterval);
+										console.log('Variable check limit reached');
+										 resolve(state);
+									}
+									checkCount++;
+								};
+								
+								// Start checking for the variable
+								checkInterval = setInterval(checkForVariable, 100);
+								
+								// Set a timeout to clear the interval after 2 seconds regardless
+								setTimeout(function() {
+									clearInterval(checkInterval);
+									console.log('Time limit reached, stopped checking for AB test');
+									resolve(state);
+								}, 2000);
+							} else {
+								 resolve(state);
+								//console.log('NW');
+							}
+						})();
+	               chatlog("[1.0.2] end determineLocale()");
+		           }
+	            });
+                // end cdc.userInfoDispatcher.getUserProfile()
+
+                
+            }
+            );
+            // end Promise
+        }
+        // end determineLocale()
+
+        function resolveId(chatNode, id, type) {
+            var dataSelector = "data-c2c-buttonid", newId;
+
+            if (type === "proactive") {
+                dataSelector = "data-c2c-proactive-buttonid";
+            }
+
+            newId = chatNode.getAttribute(dataSelector);
+            // AS: case if button id is hard coded on the page - keep for backward compatibility
+            if (newId) {
+                chatlog("[4.2]    --> UC5: found markup override " + type + "-id '" + newId + "', overriding old id '" + id + "'");
+                id = newId;
+            }
+            // AS: case if button id is passed in the URL - keep for backward compatibility
+            if (state.override[type + "Id"]) {
+                chatlog("[4.2]    --> found querystring override " + type + "-id '" + state.override[type + "Id"] + "', overriding old id '" + id + "'");
+                id = state.override[type + "Id"];
+            }
+
+            return id;
+        }
+        // end resolveId()
+
+        function readOverrideValuesOMS(data, omsService) {
+
+            var ids = ["ccid", "oid", "ecid", "dtid", "eid"];
+            var overrideIds = {};
+
+            let data_oms = {}
+            if (omsService && data) {
+                for (let i = 0; i < data.length; ++i) {
+                    chatlog(data[i]);
+                    let all_keys = Object.keys(data[i]);
+                    for (let j = 0; j < all_keys.length; ++j) {
+                        data_oms[all_keys[j]] = data[i][all_keys[j]];
+                    }
+                }
+            }
+
+            chatlog("DATA OMS: " + data_oms);
+
+            for (var index = 0; index < ids.length; index++) {
+                var key = ids[index];
+                var value = getParameter(key);
+                chatlog("[0.1] INDEX: " + index);
+
+                if (value) {
+                    chatlog("IN URL");
+                    chatlog("[0.1] URL Key:" + key + " found with a value of " + value);
+                    chatlog("[0.1] INDEX: " + index);
+                    chatlog(key);
+                    overrideIds[key] = value;
+                } else if (omsService && key in data_oms) {
+                    chatlog("OMS");
+                    chatlog("[0.1] OMS X-Key:" + key + " found with a value of " + data_oms[key]);
+                    chatlog(key);
+                    overrideIds[key] = data_oms[key];
+                }
+
+            }
+            for (var i = 0; i < localStorage.length; i++) {
+                chatlog("Key: " + localStorage.key(i));
+                chatlog("Value: " + localStorage.getItem(localStorage.key(i)));
+            }
+            window.threenHOverrideIds = overrideIds;
+        }
+
+        /* Read the querystring for a value override
+                 * If there is a querystring value, set it into the cookie for 24 hours
+                 *  If there is not querystring value, see if our cookie has any non-expired data
+                                 *  AS: Gets the dtid, ecid, ccid, and oid
+                 */
+        function readOverrideValues() {
+            chatlog("[0.1] Reading Override Values from Querystring or Cookie");
+            if ((typeof ctmsRequire != "undefined") && (ctmsRequire.require.specified('ctmsUtil'))) {
+                ctmsRequire.require(["ctmsUtil"], function(util) {
+                    //Debug log
+                    if (util) {
+                        var omsTest = "off";
+                        util.getOMS(["ccid", "oid", "ecid", "dtid", "eid"], function(data) {
+                            readOverrideValuesOMS(data, true);
+                            omsTest = "on";
+                            if (state.flags.initRunning) {
+                                chatlog("[0.0] -- another init is already running, adding this one to initQ");
+                                state.initQ.push(selector);
+                            } else {
+                                chatlog("[0.0] -- this is the first init, calling execPromiseChain()");
+                                state.flags.initRunning = true;
+                                execPromiseChain(selector);
+                            }
+                            chatlog("[0.0] end init()", selector);
+                        });
+                        if (omsTest === "off") {
+                          chatlog("[0.0] -- cookies off");
+                          var data2;
+                          readOverrideValuesOMS(data2, true);
+                          state.flags.initRunning = true;
+                          execPromiseChain(selector);
+                        }
+                    }
+                });
+            } else {
+                readOverrideValuesOMS();
+
+                if (state.flags.initRunning) {
+                    chatlog("[0.0] -- another init is already running, adding this one to initQ");
+                    state.initQ.push(selector);
+                } else {
+                    chatlog("[0.0] -- this is the first init, calling execPromiseChain()");
+                    state.flags.initRunning = true;
+                    execPromiseChain(selector);
+                }
+                chatlog("[0.0] end init()", selector);
+
+            }
+        }
+
+        /*  1. it must scan the page for the existance of chat component
+                 *
+                 *
+                 */
+
+        function wireSingleButton(index, chatNode) {
+            var nodeNum = index;
+            return new Promise(function(resolve, ignore) {
+                // , reject
+                chatlog("[4.2] ----");
+                chatlog("[4.2] -- begin wireSingleButton() for chat node #" + (nodeNum + 1) + ": ", chatNode);
+
+                // look for override button ids in chat nodes
+                // AS: don't need proactiveId, modalHeight or modalWidth, but left them in the wireParams object, just won't check them during setup (line 86)
+                var wireParams = {
+                    'buttonId': resolveId(chatNode, state.buttonInfo.buttonId, 'button'),
+                    'proactiveId': resolveId(chatNode, state.buttonInfo.proactiveId, 'proactive'),
+                    'modalHeight': chatNode.getAttribute("data-c2c-survey-height") || state.buttonInfo.modalHeight,
+                    'modalWidth': chatNode.getAttribute("data-c2c-survey-width") || state.buttonInfo.modalWidth,
+                    'ecid': state.buttonInfo.ecid,
+                    'dtid': state.buttonInfo.dtid,
+                    'ccid': state.buttonInfo.ccid,
+                    'oid': state.buttonInfo.oid,
+                    "eid": ""
+                }, lastId;
+
+                chatlog("[4.2]    -- buttonId is: " + wireParams.buttonId);
+
+                var value = "";
+                // derive data-c2c-* attributes or querystring param overrides
+                var ids = ["dtid", "ecid", "ccid", "oid", "eid"];
+                for (var index = 0; index < ids.length; index++) {
+                    var key = ids[index];
+                    value = window.threenHOverrideIds[key] || chatNode.getAttribute("data-c2c-" + key) || wireParams[key];
+                    if (value) {
+                        wireParams["data-c2c-" + key] = value;
+                        chatlog("[4.2]    -- data-c2c-" + key + " is: " + wireParams["data-c2c-" + key]);
+                    }
+                }
+
+                if (!wireParams.buttonId.match(/,/)) {
+                    chatlog("[4.2]    -- id is not a list, proceeding.");
+                    resolve(function() {
+                        state.noholdAdapter.setup({
+                            'chatNode': chatNode,
+                            'state': state,
+                            'wireParams': wireParams
+                        });
+                    });
+                    return;
+                }
+
+                // AS: Do not support a list of button ids. If comma, separated list found, taking the last id
+                chatlog("[4.2]    -- id is a list, need to find first active id via REST API");
+                lastId = (wireParams.buttonId.split(',')).pop();
+                resolve(function() {
+                    wireParams.buttonId = lastId;
+                    state.noholdAdapter.setup({
+                        'chatNode': chatNode,
+                        'state': state,
+                        'wireParams': wireParams
+                    });
+                });
+                return;
+            }
+            );
+            // end new Promise
+        }
+        // end function wireSingleButton()
+
+        // AS: Left pretty much as-is
+        function wireButtons(ignore) {
+            // chat
+            return new Promise(function(resolve, reject) {
+                var wirePromiseList = [], d;
+
+                chatlog("-------------");
+                chatlog("[4.0] begin wireButtons()");
+                chatlog("[4.0] -- buttonId=[" + state.buttonInfo.buttonId + "]");
+                chatlog("[4.0] -- number of chat nodes=[" + state.chatNodes.length + "]");
+
+                // process chatNodes as a collection of Promises
+                chatlog("[4.0] -- processing chat nodes into array of Promises that call wireSingleButton()...");
+
+                // create array of Promises to hand off to Promise.all() so Controller execution blocks on
+                // the completion of potentially asynch wiring
+                for (d = 0; d < state.chatNodes.length; d += 1) {
+                    //chatlog("[4.0]    -- chatNode #" + d + " = ", state.chatNodes[d]);
+                    wirePromiseList.push(wireSingleButton(d, state.chatNodes[d]));
+                }
+                chatlog("[4.0] -- done processing chat nodes; Promise array: =", wirePromiseList);
+
+                // all() takes an array of promises, and waits until they are done to yield an array of the resolved promises
+                chatlog("[4.0] -- passing Promise array to Promise.all()...");
+                Promise.all(wirePromiseList).then(function(agentCallbacks) {
+                    var ind;
+                    chatlog("[4.0] -- back from wireSingleButton() calls, results list: ", agentCallbacks);
+                    for (ind = 0; ind < agentCallbacks.length; ind += 1) {
+                        chatlog("[4.0] -- calling Adapter.setup() for chat node #" + (ind + 1) + "...");
+                        agentCallbacks[ind]();
+                        // this function was created in wireSingleButton(), which reolved its Promise by returning this function
+                    }
+                    finish();
+                    resolve(state);
+                }).then(// originally used Promise.catch(onRejected) here, but 'catch' is a keyword; then(undefined,onRejected) is equiv
+                null, function(reason) {
+                    chatlog("[4.0] -- back from wireSingleButton() calls, something erred: " + reason);
+                    reject(reason);
+                });
+                // end then()
+                chatlog("[4.0] end wireButtons()");
+            }
+            );
+            // end new Promise
+        }
+        // end function wireButtons
+
+        // parse querystring and populate nHChat.debug and nHChat.flags.nHverbose
+        //
+        // Note: nHverbose will not be defined until parsenHParams() runs,
+        //       so any calls to chatlog() before then will be no-ops
+
+        function prepChain(selector) {
+            return new Promise(function(resolve, reject) {
+                chatlog("[0.3]    -- begin prepChain()");
+                if (!selector) {
+                    selector = 'body';
+                }
+
+                if (state.initCounter > 25) {
+                    chatlog("[ALERT] -- recursion alert!");
+                    reject('possible infinte recursion?');
+                }
+
+                state.initCounter += 1;
+                startTimer("all");
+
+                // get the chat nodes on this page, if any; NOTE: run on AJAXed content too
+                if (typeof selector === "string") {
+                    // AS: Take care of this id vs class later
+                    state.chatNodes = document.querySelectorAll(selector + " #nhbtn");
+                } else {
+                    state.chatNodes = selector.querySelectorAll('#nhbtn');
+                }
+
+                // the first real exit condition is if there are no chat components on the page...
+                if (!state.chatNodes.length) {
+                    chatlog("[0.3]       ----> no chat components on page, exiting.");
+                    chatlog("[0.3]    -- end prepChain()");
+                    finish();
+                    reject("-- no chat components on page, exiting.");
+                    return;
+                }
+
+                chatlog("[0.3]       -- Found " + state.chatNodes.length + " chat components on page.");
+
+                //   -- NOTE: depends on JSON file being loaded first, for service URL
+                if (!state.noholdAdapter) {
+                    chatlog("[0.3]       -- creating Adapter instance for use downstream");
+                    state.noholdAdapter = new noHoldAdapter(chatlog,addEvent,getCookie);
+                }
+
+                // time to whack and wire!
+                // now call userInfoDispatcher to get entitlement and locale info about the user
+                chatlog("[0.3]       ----> no exit conditions found, proceeding with chat setup");
+                chatlog("[0.3]    -- end prepChain()");
+                resolve(state);
+            }
+            );
+            // end new Promise
+        }
+        // end 'prepChain()'
+
+        function checkQueue() {
+            return new Promise(function(resolve, ignore) {
+                chatlog("-------------");
+                chatlog("[5.0] begin checkQueue()...");
+                if (state.initQ.length) {
+                    chatlog("[5.0] -- execution queue has an item, calling execPromiseChain()", state.initQ);
+                    //chatlog(state.initQ);
+                    chatlog("[5.0] end checkQueue()");
+                    execPromiseChain(state.initQ.shift());
+                } else {
+                    chatlog("[5.0] -- execution queue is empty, done.");
+                    state.flags.initRunning = false;
+                    chatlog("[5.0] end checkQueue()");
+                    chatlog("----> EXIT CHAT CONTROLLER");
+                    chatlog("=============");
+                }
+                resolve(state);
+            }
+            );
+            // end Promise
+        }
+
+        // any reject()s in prepChain() will come here; they should checkQueue() for ajaxed stuff Q'ed up
+        function logErrorMessage(error) {
+            chatlog('Interruption in chained Promises: ', error);
+            finish();
+            checkQueue();
+        }
+
+        // using chained Promises for asynch operations; see comment above about jslint and execPromiseChain...
+        function execPromiseChain(selector) {
+            import('/etc.clientlibs/cisco-cdc/clientlibs/clientlib-ancillary.js').then(response=>{
+                userInfoDispatcher = cdcreimagine.ancillary.userInfoDispatcher;
+                chatlog("[0.2] -- begin execPromiseChain(), calling prepChain()...");
+                prepChain(selector).then(determineLocale)// AS: In future, possibly use to send partners & employees to specific ruleid
+                .then(loadButtonMap).then(wireButtons).then(checkQueue, logErrorMessage);
+                chatlog("[0.2] -- end execPromiseChain()");
+            }
+            );
+
+        }
+        //; // for jslint add the semicolon after the brace. sheesh.
+
+        /*
+                 *     PUBLIC
+                 *
+                 */
+
+        // grab any meaningful querystring params, ignore the rest
+        parsenHParams();
+
+        // expose for onready handler to use
+        this.chatLog = chatlog;
+        this.events = state.events;
+        this.removeEvent = removeEvent;
+
+        // if jasmine tests are being run, expose the state object
+        //  AS: QUESTION FOR MICHAEL - still needed???
+        // NOTE: this relies on parsenHParams() running first
+        // if (state.flags.test) {
+        //        this.state = state;
+        // }
+
+        readOverrideValues();
+        // if a promise chain is already running, push selector onto state.initQ array;
+        // final then() in execPromiseChain() should shift initQ and
+        //    -->  if there is a selector, run another execPromiseChain()
+
+    }
+    // end defn of nHChat class
+
+    // we are still in the chatController class here
+    // - this is to expose the inner 'init()' and also the instance itself (for jasmine testing)
+    var chatInstance = null;
+    this.init = function(selector) {
+        chatInstance = new nHChat(selector);
+    }
+    ;
+
+    this.getChatInstance = function() {
+        return chatInstance;
+    }
+    ;
+
+}
+;
+// end cdc.nHc()
+
+/* On ready:
+ *
+ * - create a Chat Controller instance
+ * - bind a custom event handler 'loadnHC' to aid with ajaxed content
+ * - call 'init()' on the body to wire up loaded chat buttons
+ *
+ */
+
+// AS: Looks like this is where things kick off...
+// replacement for jQuery(document).ready()... NOTE: does not support IE <= 8
+
+cdc.nHc.initialize = function() {
+  "use strict";
+
+  // Check if there are any buttons and if initialization hasn't already happened
+  if (document.querySelectorAll('.vabutton').length === 0 && !cdc.nHc.started) {
+    cdc.nHc.started = true;
+
+    const nHChat = new cdc.nHc(); // Create new nHChat instance
+    const nHController = nHChat; // Assign instance to nHController
+
+    // Function to initialize chat with optional scope selector
+    function loadnHC(scopeSelector = 'body') {
+      nHController.init(scopeSelector);
+    }
+
+    // Trigger function for debugging with event name and data object
+    cdc.nHc.trigger = (elem, eventName = 'loadnHC', dataObj) => {
+      const event = new CustomEvent(eventName, { detail: dataObj });
+      elem.dispatchEvent(event);
+    };
+
+    // Add loadnHC event listener (consider using a dedicated event bus)
+    try {
+      document.body.addEventListener('loadnHC', loadnHC);
+    } catch (err) {
+      console.warn("Warning: Could not add loadnHC event:", err.message);
+    }
+
+    // Initialize chat on body
+    loadnHC();
+  }
+};
+
+	if (typeof cdc !== "" && typeof cdc.nHc !== "undefined" && typeof cdc.nHc.initialize !== "undefined" && typeof cdc.nHc.started === 'undefined') {
+	    window.addEventListener('load', cdc.nHc.initialize);
+	}
+// AS: NOTE: ONLY RUNS FOR FIRST nhbtn ON THE PAGE.  WILL NEED TO DEBUG IF SUPPORT FOR MULTIPLE BUTTONS IS NEEDED

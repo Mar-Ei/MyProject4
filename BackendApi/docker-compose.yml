@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+  backendapi:
+    image: backendapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - ASPNETCORE_URLS=http://+:5000
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=db;Database=Medical;User Id=sa;Password=Your_password123;TrustServerCertificate=True
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+
+  db:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Your_password123
+    container_name: mssql
+    ports:
+      - "1433:1433"
