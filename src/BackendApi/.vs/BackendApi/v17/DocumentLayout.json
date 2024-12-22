@@ -298,8 +298,7 @@
               "RelativeToolTip": "BackendApi\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-22T19:26:37.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T19:26:37.343Z"
             },
             {
               "$type": "Document",
@@ -311,8 +310,7 @@
               "RelativeToolTip": "BackendApi\\Contracts\\User\\CreateUserRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T19:26:34.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T19:26:34.587Z"
             },
             {
               "$type": "Document",
@@ -324,8 +322,7 @@
               "RelativeToolTip": "BackendApi\\Contracts\\User\\GetUserResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T19:26:33.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T19:26:33.717Z"
             },
             {
               "$type": "Document",
@@ -337,8 +334,7 @@
               "RelativeToolTip": "BackendApi\\Controllers\\UserController.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAUwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T20:21:51.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T20:21:51.541Z"
             },
             {
               "$type": "Document",
@@ -350,8 +346,7 @@
               "RelativeToolTip": "BackendApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-22T16:33:25.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T16:33:25.027Z"
             },
             {
               "$type": "Document",
@@ -376,8 +371,7 @@
               "RelativeToolTip": "BackendApi\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAmwBEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T17:18:14.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T17:18:14.514Z"
             },
             {
               "$type": "Document",
@@ -389,8 +383,7 @@
               "RelativeToolTip": "BackendApi\\Controllers\\MedicalRecordsController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAcwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:24:19.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T17:24:19.341Z"
             },
             {
               "$type": "Document",
@@ -402,8 +395,7 @@
               "RelativeToolTip": "BackendApi\\Controllers\\BaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:09:56.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T17:09:56.594Z"
             },
             {
               "$type": "Document",
@@ -415,8 +407,7 @@
               "RelativeToolTip": "BackendApi\\Controllers\\AccountsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:11:09.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T17:11:09.829Z"
             },
             {
               "$type": "Document",
@@ -428,8 +419,7 @@
               "RelativeToolTip": "BackendApi\\Help\\Error.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAIwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T16:52:41.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T16:52:41.317Z"
             },
             {
               "$type": "Document",
@@ -441,8 +431,7 @@
               "RelativeToolTip": "BackendApi\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T19:26:09.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T19:26:09.906Z"
             },
             {
               "$type": "Document",
@@ -454,8 +443,7 @@
               "RelativeToolTip": "BusinessLogic\\Services\\UserService.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAA0wDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T16:26:07.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T16:26:07.597Z"
             },
             {
               "$type": "Document",
@@ -467,8 +455,7 @@
               "RelativeToolTip": "BusinessLogic\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T19:25:57.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T19:25:57.314Z"
             },
             {
               "$type": "Document",
@@ -480,8 +467,7 @@
               "RelativeToolTip": "DataAccess\\Migrations\\ChangeRoleToString .cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAiwAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T16:40:04.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T16:40:04.446Z"
             },
             {
               "$type": "Document",
@@ -493,8 +479,7 @@
               "RelativeToolTip": "DataAccess\\Repositories\\MedicalRecordRepository.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAiwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:42:03.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T17:42:03.807Z"
             },
             {
               "$type": "Document",
@@ -506,8 +491,7 @@
               "RelativeToolTip": "DataAccess\\Repositories\\RepositoryBase.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAIwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T16:02:17.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T16:02:17.281Z"
             },
             {
               "$type": "Document",
@@ -519,8 +503,7 @@
               "RelativeToolTip": "BusinessLogic\\Services\\MedicalRecordsService.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAIwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:30:14.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T17:30:14.407Z"
             },
             {
               "$type": "Document",
@@ -532,8 +515,7 @@
               "RelativeToolTip": "DataAccess\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T16:00:37.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T16:00:37.772Z"
             },
             {
               "$type": "Document",
@@ -545,8 +527,7 @@
               "RelativeToolTip": "DataAccess\\Wrapper\\RepositoryWrapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:58:43.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T15:58:43.114Z"
             },
             {
               "$type": "Document",
@@ -558,8 +539,7 @@
               "RelativeToolTip": "DataAccess\\Migrations\\ApplyChangesToMedicalDB .cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwFAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T16:37:15.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T16:37:15.512Z"
             },
             {
               "$type": "Document",
@@ -571,8 +551,7 @@
               "RelativeToolTip": "DataAccess\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T19:25:43.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T19:25:43.492Z"
             },
             {
               "$type": "Document",
@@ -584,8 +563,7 @@
               "RelativeToolTip": "Domain\\Entities\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:58:14.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T15:58:14.271Z"
             },
             {
               "$type": "Document",
@@ -597,8 +575,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IMedicalRecordRepository.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA7wB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:29:15.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T17:29:15.102Z"
             },
             {
               "$type": "Document",
@@ -610,8 +587,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IRepositoryBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:56:37.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T15:56:37.093Z"
             },
             {
               "$type": "Document",
@@ -623,8 +599,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:56:11.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T15:56:11.125Z"
             },
             {
               "$type": "Document",
@@ -636,8 +611,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IRepositoryWrapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:56:28.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T15:56:28.612Z"
             },
             {
               "$type": "Document",
@@ -649,8 +623,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:55:55.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T15:55:55.39Z"
             },
             {
               "$type": "Document",
@@ -662,8 +635,7 @@
               "RelativeToolTip": "Domain\\Entities\\RefreshToken.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:57:51.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T15:57:51.257Z"
             },
             {
               "$type": "Document",
@@ -675,8 +647,7 @@
               "RelativeToolTip": "BackendApi\\BackendApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-23T19:56:46.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T19:56:46.191Z"
             },
             {
               "$type": "Document",
