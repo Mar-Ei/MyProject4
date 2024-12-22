@@ -1,0 +1,42 @@
+﻿@page "/analyses"
+
+<h1>Анализы</h1>
+
+<p>Здесь будут отображены ваши медицинские анализы.</p>
+
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Дата</th>
+                <th scope="col">Тип анализа</th>
+                <th scope="col">Результат</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var analysis in analyses)
+            {
+                <tr>
+                    <td>@analysis.Date.ToShortDateString()</td>
+                    <td>@analysis.Type</td>
+                    <td>@analysis.Result</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    public class Analysis
+    {
+        public DateTime Date { get; set; }
+        public string Type { get; set; }
+        public string Result { get; set; }
+    }
+
+    private Analysis[] analyses = new Analysis[]
+    {
+        new Analysis { Date = DateTime.Now.AddDays(-2), Type = "Общий анализ крови", Result = "Нормально" },
+        new Analysis { Date = DateTime.Now.AddDays(-5), Type = "Ультразвуковое исследование", Result = "Отклонения выявлены" }
+    };
+}

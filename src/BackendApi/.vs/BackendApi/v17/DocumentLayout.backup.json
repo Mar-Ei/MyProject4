@@ -1,0 +1,1153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\controllers\\medicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\medicalrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\help\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\help\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\services\\medicalrecordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\services\\medicalrecordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\dataaccess\\migrations\\applychangestomedicaldb .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\applychangestomedicaldb .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\dataaccess\\migrations\\changeroletostring .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\changeroletostring .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\dataaccess\\repositories\\medicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\medicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\dataaccess\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\interfaces\\imedicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\imedicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\interfaces\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\pages\\contacts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\pages\\contacts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\pages\\analyses.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\pages\\analyses.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\wwwroot\\css\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\wwwroot\\css\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\medicalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\medicalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\chroniccondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\chroniccondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\vaccination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\vaccination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\usermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\usermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\useractivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\useractivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\symptom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\symptom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\physicalactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\physicalactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\medicaltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\medicaltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\labresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\labresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\healthmetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\healthmetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\emergencycontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\emergencycontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\dietplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\dietplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\appointmentsfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\appointmentsfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\allergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\allergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Models\\MedicalContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BackendApi\\Models\\MedicalContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\migrations\\med.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\med.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\migrations\\20240923200439_migratonname.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20240923200439_migratonname.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BackendApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BackendApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-22T19:26:37.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeToolTip": "BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T19:26:34.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeToolTip": "BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T19:26:33.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BackendApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAUwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:21:51.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BackendApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\appsettings.json",
+              "RelativeToolTip": "BackendApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-22T16:33:25.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Program.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Program.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Program.cs",
+              "RelativeToolTip": "BackendApi\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:58:35.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "BackendApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T17:18:14.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedicalRecordsController.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\MedicalRecordsController.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Controllers\\MedicalRecordsController.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\MedicalRecordsController.cs",
+              "RelativeToolTip": "BackendApi\\Controllers\\MedicalRecordsController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:24:19.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "BackendApi\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:09:56.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "BackendApi\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:11:09.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Help\\Error.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Help\\Error.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Help\\Error.cs",
+              "RelativeToolTip": "BackendApi\\Help\\Error.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:52:41.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "BackendApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\WeatherForecast.cs",
+              "RelativeToolTip": "BackendApi\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T19:26:09.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\UserService.cs",
+              "RelativeToolTip": "BusinessLogic\\Services\\UserService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA0wDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:26:07.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Class1.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Class1.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Class1.cs",
+              "RelativeToolTip": "BusinessLogic\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T19:25:57.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChangeRoleToString .cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Migrations\\ChangeRoleToString .cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\ChangeRoleToString .cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Migrations\\ChangeRoleToString .cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\ChangeRoleToString .cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:40:04.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MedicalRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Repositories\\MedicalRecordRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\MedicalRecordRepository.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Repositories\\MedicalRecordRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\MedicalRecordRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:42:03.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:02:17.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MedicalRecordsService.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\MedicalRecordsService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Services\\MedicalRecordsService.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\MedicalRecordsService.cs",
+              "RelativeToolTip": "BusinessLogic\\Services\\MedicalRecordsService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:30:14.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:00:37.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeToolTip": "DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:58:43.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplyChangesToMedicalDB .cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Migrations\\ApplyChangesToMedicalDB .cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\ApplyChangesToMedicalDB .cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Migrations\\ApplyChangesToMedicalDB .cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\ApplyChangesToMedicalDB .cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwFAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:37:15.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Class1.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Class1.cs",
+              "RelativeToolTip": "DataAccess\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T19:25:43.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:58:14.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IMedicalRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IMedicalRecordRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IMedicalRecordRepository.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IMedicalRecordRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IMedicalRecordRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA7wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:29:15.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:56:37.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:56:11.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IRepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:56:28.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:55:55.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "Domain\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T15:57:51.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BackendApi.csproj",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\BackendApi.csproj",
+              "RelativeDocumentMoniker": "BackendApi\\BackendApi.csproj",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\BackendApi.csproj",
+              "RelativeToolTip": "BackendApi\\BackendApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T19:56:46.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\Program.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Program.cs",
+              "RelativeToolTip": "BlazorApp2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:23:40.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\css\\index.html",
+              "RelativeDocumentMoniker": "BlazorApp2\\wwwroot\\css\\index.html",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\css\\index.html",
+              "RelativeToolTip": "BlazorApp2\\wwwroot\\css\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-22T18:29:30.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\App.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\App.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\App.razor",
+              "RelativeToolTip": "BlazorApp2\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T20:24:00.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\_Imports.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\_Imports.razor",
+              "RelativeToolTip": "BlazorApp2\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T18:16:54.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Dockerfile",
+              "RelativeDocumentMoniker": "BlazorApp2\\Dockerfile",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Dockerfile",
+              "RelativeToolTip": "BlazorApp2\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-22T18:18:19.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp2\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T18:27:03.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "BlazorApp2\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "BlazorApp2\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAQwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-22T18:27:40.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "BlazorApp2\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\index.html",
+              "RelativeToolTip": "BlazorApp2\\wwwroot\\index.html",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-22T18:28:16.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Analyses.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Analyses.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\Pages\\Analyses.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Analyses.razor",
+              "RelativeToolTip": "BlazorApp2\\Pages\\Analyses.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T18:39:39.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Contacts.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Contacts.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\Pages\\Contacts.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Contacts.razor",
+              "RelativeToolTip": "BlazorApp2\\Pages\\Contacts.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T18:40:00.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorApp2\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T19:49:04.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorApp2\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T18:17:09.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorApp2\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T19:45:26.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "nginx.conf",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\nginx.conf",
+              "RelativeDocumentMoniker": "BlazorApp2\\nginx.conf",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\nginx.conf",
+              "RelativeToolTip": "BlazorApp2\\nginx.conf",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-22T18:18:18.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MedicalContext.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalContext.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\MedicalContext.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalContext.cs",
+              "RelativeToolTip": "Domain\\Models\\MedicalContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:57.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\MedicalRecord.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalRecord.cs",
+              "RelativeToolTip": "Domain\\Models\\MedicalRecord.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:34:08.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\User.cs",
+              "RelativeToolTip": "Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:34:23.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "MedicalTest.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalTest.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\MedicalTest.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalTest.cs",
+              "RelativeToolTip": "Domain\\Models\\MedicalTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:34:10.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Medication.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Medication.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Medication.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Medication.cs",
+              "RelativeToolTip": "Domain\\Models\\Medication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:34:14.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PhysicalActivity.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\PhysicalActivity.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\PhysicalActivity.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\PhysicalActivity.cs",
+              "RelativeToolTip": "Domain\\Models\\PhysicalActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:34:17.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "MedicalHistory.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalHistory.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\MedicalHistory.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalHistory.cs",
+              "RelativeToolTip": "Domain\\Models\\MedicalHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:34:04.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ChronicCondition.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\ChronicCondition.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\ChronicCondition.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\ChronicCondition.cs",
+              "RelativeToolTip": "Domain\\Models\\ChronicCondition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:40.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Symptom.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Symptom.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Symptom.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Symptom.cs",
+              "RelativeToolTip": "Domain\\Models\\Symptom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:34:20.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Vaccination.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Vaccination.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Vaccination.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Vaccination.cs",
+              "RelativeToolTip": "Domain\\Models\\Vaccination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:34:31.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserActivity.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\UserActivity.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\UserActivity.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\UserActivity.cs",
+              "RelativeToolTip": "Domain\\Models\\UserActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:34:26.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserMessage.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\UserMessage.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\UserMessage.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\UserMessage.cs",
+              "RelativeToolTip": "Domain\\Models\\UserMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:34:28.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "LabResult.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\LabResult.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\LabResult.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\LabResult.cs",
+              "RelativeToolTip": "Domain\\Models\\LabResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:55.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "HealthMetric.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\HealthMetric.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\HealthMetric.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\HealthMetric.cs",
+              "RelativeToolTip": "Domain\\Models\\HealthMetric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:52.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EmergencyContact.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\EmergencyContact.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\EmergencyContact.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\EmergencyContact.cs",
+              "RelativeToolTip": "Domain\\Models\\EmergencyContact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:50.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DoctorSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\DoctorSchedule.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\DoctorSchedule.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\DoctorSchedule.cs",
+              "RelativeToolTip": "Domain\\Models\\DoctorSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:47.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Doctor.cs",
+              "RelativeToolTip": "Domain\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:45.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "DietPlan.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\DietPlan.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\DietPlan.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\DietPlan.cs",
+              "RelativeToolTip": "Domain\\Models\\DietPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:43.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AppointmentsFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\AppointmentsFeedback.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\AppointmentsFeedback.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\AppointmentsFeedback.cs",
+              "RelativeToolTip": "Domain\\Models\\AppointmentsFeedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:38.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Appointment.cs",
+              "RelativeToolTip": "Domain\\Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:36.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Allergy.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Allergy.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Allergy.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Allergy.cs",
+              "RelativeToolTip": "Domain\\Models\\Allergy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:28.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "MedicalContext.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Models\\MedicalContext.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Models\\MedicalContext.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Models\\MedicalContext.cs",
+              "RelativeToolTip": "BackendApi\\Models\\MedicalContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:33:07.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "med.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Migrations\\med.cs",
+              "RelativeDocumentMoniker": "Domain\\Migrations\\med.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Migrations\\med.cs",
+              "RelativeToolTip": "Domain\\Migrations\\med.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:22:52.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20240923200439_MigratonName.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Migrations\\20240923200439_MigratonName.Designer.cs",
+              "RelativeDocumentMoniker": "Domain\\Migrations\\20240923200439_MigratonName.Designer.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Migrations\\20240923200439_MigratonName.Designer.cs",
+              "RelativeToolTip": "Domain\\Migrations\\20240923200439_MigratonName.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:22:48.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Class1.cs",
+              "RelativeToolTip": "Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:24:05.203Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

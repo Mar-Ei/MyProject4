@@ -1,0 +1,1064 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\wwwroot\\css\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\css\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\nginx.conf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\router.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\router.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\0\\Desktop\\Api\\Api\\src\\Api\\BlazorApp\\MainLayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\shared\\surveyprompt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\shared\\surveyprompt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\backendapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\wwwroot\\sample-data\\weather.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\sample-data\\weather.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\wwwroot\\icon-192.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\icon-192.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\wwwroot\\ph\\7.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\ph\\7.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\blazorapp1\\blazorapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F9322AC8-3722-4B1A-AB3C-1B0F07B075D0}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\blazorapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\0\\Microsoft.NET.Sdk.FrameworkReferenceResolution2||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\backendapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\0\\Desktop\\Cultura-main\\Cultura-main\\src\\Cultura_New\\BlazorApp-empty1\\MainLayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\backendapi\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\backendapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\backendapi\\backendapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\backendapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\backendapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\backendapi\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\allergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\allergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\dataaccess\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA24AE9B-464C-4A1C-A573-DDE069309954}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\medicalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\medicalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\vaccination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\vaccination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\usermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\usermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\useractivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\useractivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\symptom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\symptom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\physicalactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\physicalactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\medicaltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\medicaltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\labresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\labresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\healthmetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\healthmetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\emergencycontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\emergencycontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\dietplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\dietplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\chroniccondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\chroniccondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\models\\appointmentsfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\appointmentsfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\0\\Desktop\\MyProject4\\BackendApi\\BackendApi\\Models\\MedicalContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\backendapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi2\\domain\\migrations\\med.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\med.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\_Imports.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\_Imports.razor",
+              "RelativeToolTip": "BlazorApp1\\_Imports.razor",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T20:42:24.676Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Pages\\FetchData.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Pages\\FetchData.razor",
+              "RelativeToolTip": "BlazorApp1\\Pages\\FetchData.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T20:51:54.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\css\\index.html",
+              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\css\\index.html",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\css\\index.html",
+              "RelativeToolTip": "BlazorApp1\\wwwroot\\css\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-21T20:05:11.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "BlazorApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-21T21:49:00.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "BlazorApp1\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAUwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-21T20:07:13.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BackendApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\appsettings.json",
+              "RelativeToolTip": "BackendApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T20:34:07.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Program.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Program.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Program.cs",
+              "RelativeToolTip": "BackendApi\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:58:35.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ViewState": "AgIAANsBAAAAAAAAAAAlwOoBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-21T21:39:27.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Client\\Program.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Client\\Program.cs",
+              "RelativeToolTip": "BlazorApp1\\Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:49:25.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorApp1\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T20:51:57.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorApp1\\Pages\\Index.razor",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwHMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T19:46:36.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Router.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Router.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Router.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Router.razor",
+              "RelativeToolTip": "BlazorApp1\\Router.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T22:04:57.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\App.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\App.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\App.razor",
+              "RelativeToolTip": "BlazorApp1\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T20:42:22.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Dockerfile",
+              "RelativeDocumentMoniker": "BlazorApp1\\Dockerfile",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Dockerfile",
+              "RelativeToolTip": "BlazorApp1\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-21T20:51:46.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "nginx.conf",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\nginx.conf",
+              "RelativeDocumentMoniker": "BlazorApp1\\nginx.conf",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\nginx.conf",
+              "RelativeToolTip": "BlazorApp1\\nginx.conf",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-21T20:51:45.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SurveyPrompt.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Shared\\SurveyPrompt.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Shared\\SurveyPrompt.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Shared\\SurveyPrompt.razor",
+              "RelativeToolTip": "BlazorApp1\\Shared\\SurveyPrompt.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T20:42:26.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp1\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T20:42:26.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Api\\Api\\src\\Api\\BlazorApp\\MainLayout.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\Api\\Api\\src\\Api\\BlazorApp\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\Api\\Api\\src\\Api\\BlazorApp\\MainLayout.razor",
+              "RelativeToolTip": "..\\..\\..\\Api\\Api\\src\\Api\\BlazorApp\\MainLayout.razor",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T15:50:36.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp1\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T20:42:27.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BackendApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\appsettings.Development.json",
+              "RelativeToolTip": "BackendApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T20:29:21.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "weather.json",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\sample-data\\weather.json",
+              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\sample-data\\weather.json",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\sample-data\\weather.json",
+              "RelativeToolTip": "BlazorApp1\\wwwroot\\sample-data\\weather.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T21:49:15.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "RelativeToolTip": "BlazorApp1\\wwwroot\\favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-12-21T20:52:15.957Z",
+              "EditorCaption": " - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "icon-192.png - PNG [192x192, 8 \u0431\u0438\u0442, PNG]",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\icon-192.png",
+              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\icon-192.png",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\icon-192.png - PNG [192x192, 8 \u0431\u0438\u0442, PNG]",
+              "RelativeToolTip": "BlazorApp1\\wwwroot\\icon-192.png - PNG [192x192, 8 \u0431\u0438\u0442, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-21T20:22:45.273Z",
+              "EditorCaption": " - PNG [192x192, 8 \u0431\u0438\u0442, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BlazorApp1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BlazorApp1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T21:48:55.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\index.html",
+              "RelativeToolTip": "BlazorApp1\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-21T20:22:41.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "7.jpg - Bitmap [512x512, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\Ph\\7.jpg",
+              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\Ph\\7.jpg",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\wwwroot\\Ph\\7.jpg - Bitmap [512x512, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]",
+              "RelativeToolTip": "BlazorApp1\\wwwroot\\Ph\\7.jpg - Bitmap [512x512, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-21T22:05:49.84Z",
+              "EditorCaption": " - Bitmap [512x512, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\User.cs",
+              "RelativeToolTip": "Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:38.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BlazorApp1.csproj",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\BlazorApp1.csproj",
+              "RelativeDocumentMoniker": "BlazorApp1\\BlazorApp1.csproj",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BlazorApp1\\BlazorApp1.csproj",
+              "RelativeToolTip": "BlazorApp1\\BlazorApp1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-21T21:45:06.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution2",
+              "DocumentMoniker": "C:\\Users\\0\\Microsoft.NET.Sdk.FrameworkReferenceResolution2",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Microsoft.NET.Sdk.FrameworkReferenceResolution2",
+              "ToolTip": "C:\\Users\\0\\Microsoft.NET.Sdk.FrameworkReferenceResolution2",
+              "RelativeToolTip": "..\\..\\..\\..\\Microsoft.NET.Sdk.FrameworkReferenceResolution2",
+              "ViewState": "AgIAANsBAAAAAAAAAAAlwOkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-21T21:35:49.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BackendApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAEwCIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:13:26.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\Cultura-main\\Cultura-main\\src\\Cultura_New\\BlazorApp-empty1\\MainLayout.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\Cultura-main\\Cultura-main\\src\\Cultura_New\\BlazorApp-empty1\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\0\\Desktop\\Cultura-main\\Cultura-main\\src\\Cultura_New\\BlazorApp-empty1\\MainLayout.razor",
+              "RelativeToolTip": "..\\..\\..\\Cultura-main\\Cultura-main\\src\\Cultura_New\\BlazorApp-empty1\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T18:31:21.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeToolTip": "DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:40:40.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:40:35.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:40:32.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Vaccination.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Vaccination.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Vaccination.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Vaccination.cs",
+              "RelativeToolTip": "Domain\\Models\\Vaccination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:56.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserMessage.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\UserMessage.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\UserMessage.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\UserMessage.cs",
+              "RelativeToolTip": "Domain\\Models\\UserMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:51.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserActivity.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\UserActivity.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\UserActivity.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\UserActivity.cs",
+              "RelativeToolTip": "Domain\\Models\\UserActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:46.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Symptom.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Symptom.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Symptom.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Symptom.cs",
+              "RelativeToolTip": "Domain\\Models\\Symptom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:35.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PhysicalActivity.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\PhysicalActivity.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\PhysicalActivity.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\PhysicalActivity.cs",
+              "RelativeToolTip": "Domain\\Models\\PhysicalActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:31.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Medication.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Medication.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Medication.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Medication.cs",
+              "RelativeToolTip": "Domain\\Models\\Medication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:28.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "MedicalTest.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\MedicalTest.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\MedicalTest.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\MedicalTest.cs",
+              "RelativeToolTip": "Domain\\Models\\MedicalTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:26.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\MedicalRecord.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\MedicalRecord.cs",
+              "RelativeToolTip": "Domain\\Models\\MedicalRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:23.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MedicalHistory.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\MedicalHistory.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\MedicalHistory.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\MedicalHistory.cs",
+              "RelativeToolTip": "Domain\\Models\\MedicalHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:19.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MedicalContext.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\MedicalContext.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\MedicalContext.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\MedicalContext.cs",
+              "RelativeToolTip": "Domain\\Models\\MedicalContext.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAxwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:16.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LabResult.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\LabResult.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\LabResult.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\LabResult.cs",
+              "RelativeToolTip": "Domain\\Models\\LabResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:13.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "HealthMetric.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\HealthMetric.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\HealthMetric.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\HealthMetric.cs",
+              "RelativeToolTip": "Domain\\Models\\HealthMetric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:10.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "EmergencyContact.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\EmergencyContact.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\EmergencyContact.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\EmergencyContact.cs",
+              "RelativeToolTip": "Domain\\Models\\EmergencyContact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:05.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DoctorSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\DoctorSchedule.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\DoctorSchedule.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\DoctorSchedule.cs",
+              "RelativeToolTip": "Domain\\Models\\DoctorSchedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:03.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Doctor.cs",
+              "RelativeToolTip": "Domain\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:01:00.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DietPlan.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\DietPlan.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\DietPlan.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\DietPlan.cs",
+              "RelativeToolTip": "Domain\\Models\\DietPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:00:57.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ChronicCondition.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\ChronicCondition.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\ChronicCondition.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\ChronicCondition.cs",
+              "RelativeToolTip": "Domain\\Models\\ChronicCondition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:00:52.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AppointmentsFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\AppointmentsFeedback.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\AppointmentsFeedback.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\AppointmentsFeedback.cs",
+              "RelativeToolTip": "Domain\\Models\\AppointmentsFeedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:00:46.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Appointment.cs",
+              "RelativeToolTip": "Domain\\Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:00:43.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Allergy.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Allergy.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Allergy.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Models\\Allergy.cs",
+              "RelativeToolTip": "Domain\\Models\\Allergy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:00:33.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "MedicalContext.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\BackendApi\\BackendApi\\Models\\MedicalContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\BackendApi\\BackendApi\\Models\\MedicalContext.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\BackendApi\\BackendApi\\Models\\MedicalContext.cs",
+              "RelativeToolTip": "..\\..\\BackendApi\\BackendApi\\Models\\MedicalContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T15:00:13.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "med.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Migrations\\med.cs",
+              "RelativeDocumentMoniker": "Domain\\Migrations\\med.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Migrations\\med.cs",
+              "RelativeToolTip": "Domain\\Migrations\\med.cs",
+              "ViewState": "AgIAAEYDAAAAAAAAAAAQwGADAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:36:52.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BackendApi.http",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\BackendApi.http",
+              "RelativeDocumentMoniker": "BackendApi\\BackendApi.http",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\BackendApi.http",
+              "RelativeToolTip": "BackendApi\\BackendApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-13T20:34:11.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BackendApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BackendApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T20:29:42.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\Domain\\Class1.cs",
+              "RelativeToolTip": "Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:14:07.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BusinessLogic\\Class1.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Class1.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BusinessLogic\\Class1.cs",
+              "RelativeToolTip": "BusinessLogic\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:14:04.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "BackendApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\WeatherForecast.cs",
+              "RelativeToolTip": "BackendApi\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:13:55.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GetUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeToolTip": "BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:13:44.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeToolTip": "BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:13:43.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "BackendApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:13:37.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BackendApi.csproj",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\BackendApi.csproj",
+              "RelativeDocumentMoniker": "BackendApi\\BackendApi.csproj",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi2\\BackendApi\\BackendApi.csproj",
+              "RelativeToolTip": "BackendApi\\BackendApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T19:56:46.191Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
