@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Domain.Entities
 {
@@ -11,6 +12,7 @@ namespace Domain.Entities
     {
         public int Id { get; set; }
         public User Account { get; set; }
+        public int UserId { get; set; }  // Добавьте UserId
         public string Token { get; set; }
         public DateTime Expires { get; set; }
         public DateTime Created { get; set; }
@@ -22,6 +24,7 @@ namespace Domain.Entities
         public bool IsExpired => DateTime.UtcNow >= Expires;
         public bool IsRevoked => Revoked != null;
         public bool IsActive => Revoked == null && !IsExpired;
-
     }
+
+
 }

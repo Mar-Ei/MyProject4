@@ -7,63 +7,79 @@ namespace Domain.Models
 {
     public partial class MedicalContext : DbContext
     {
-        public MedicalContext()
-        {
-        }
+   
+            public DbSet<User> Users { get; set; }
+            public DbSet<Vaccination> Vaccinations { get; set; }
+            public DbSet<Allergy> Allergies { get; set; }
+            public DbSet<Appointment> Appointments { get; set; }
+            public DbSet<AppointmentsFeedback> AppointmentsFeedbacks { get; set; }
+            public DbSet<ChronicCondition> ChronicConditions { get; set; }
+            public DbSet<DietPlan> DietPlans { get; set; }
+            public DbSet<Doctor> Doctors { get; set; }
+            public DbSet<DoctorSchedule> DoctorSchedules { get; set; }
+            public DbSet<EmergencyContact> EmergencyContacts { get; set; }
+            public DbSet<HealthMetric> HealthMetrics { get; set; }
+            public DbSet<LabResult> LabResults { get; set; }
+            public DbSet<MedicalHistory> MedicalHistories { get; set; }
+            public DbSet<MedicalRecord> MedicalRecords { get; set; }
+            public DbSet<MedicalTest> MedicalTests { get; set; }
+            public DbSet<Medication> Medications { get; set; }
+            public DbSet<PhysicalActivity> PhysicalActivities { get; set; }
+            public DbSet<Symptom> Symptoms { get; set; }
+            public DbSet<UserActivity> UserActivities { get; set; }
+            public DbSet<UserMessage> UserMessages { get; set; }
 
-        public MedicalContext(DbContextOptions<MedicalContext> options)
-            : base(options)
-        {
-        }
-
-        public virtual DbSet<Allergy> Allergies { get; set; } = null!;
-        public virtual DbSet<Appointment> Appointments { get; set; } = null!;
-        public virtual DbSet<AppointmentsFeedback> AppointmentsFeedbacks { get; set; } = null!;
-        public virtual DbSet<ChronicCondition> ChronicConditions { get; set; } = null!;
-        public virtual DbSet<DietPlan> DietPlans { get; set; } = null!;
-        public virtual DbSet<Doctor> Doctors { get; set; } = null!;
-        public virtual DbSet<DoctorSchedule> DoctorSchedules { get; set; } = null!;
-        public virtual DbSet<EmergencyContact> EmergencyContacts { get; set; } = null!;
-        public virtual DbSet<HealthMetric> HealthMetrics { get; set; } = null!;
-        public virtual DbSet<LabResult> LabResults { get; set; } = null!;
-        public virtual DbSet<MedicalHistory> MedicalHistories { get; set; } = null!;
-        public virtual DbSet<MedicalRecord> MedicalRecords { get; set; } = null!;
-        public virtual DbSet<MedicalTest> MedicalTests { get; set; } = null!;
-        public virtual DbSet<Medication> Medications { get; set; } = null!;
-        public virtual DbSet<PhysicalActivity> PhysicalActivities { get; set; } = null!;
-        public virtual DbSet<Symptom> Symptoms { get; set; } = null!;
-        public virtual DbSet<User> Users { get; set; } = null!;
-        public virtual DbSet<UserActivity> UserActivities { get; set; } = null!;
-        public virtual DbSet<UserMessage> UserMessages { get; set; } = null!;
-        public virtual DbSet<Vaccination> Vaccinations { get; set; } = null!;
-
-       
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Allergy>(entity =>
+            public MedicalContext()
             {
-                entity.Property(e => e.AllergyId).HasColumnName("allergy_id");
+            }
 
-                entity.Property(e => e.AllergyName)
-                    .HasMaxLength(100)
-                    .IsUnicode(false)
-                    .HasColumnName("allergy_name");
+            public MedicalContext(DbContextOptions<MedicalContext> options)
+                : base(options)
+            {
+            }
 
-                entity.Property(e => e.AllergyReaction)
-                    .HasMaxLength(255)
-                    .IsUnicode(false)
-                    .HasColumnName("allergy_reaction");
+            protected override void OnModelCreating(ModelBuilder modelBuilder)
+            {
+                base.OnModelCreating(modelBuilder);
 
-                entity.Property(e => e.UserId).HasColumnName("user_id");
+                // Настройки для сущности Vaccination
+                modelBuilder.Entity<Vaccination>(entity =>
+                {
+                    entity.Property(e => e.VaccineName)
+                        .HasMaxLength(100)
+                        .IsUnicode(false)
+                        .HasColumnName("vaccine_name");
 
-                entity.HasOne(d => d.User)
-                    .WithMany(p => p.Allergies)
-                    .HasForeignKey(d => d.UserId)
-                    .HasConstraintName("FK__Allergies__user___5AEE82B9");
-            });
+                    entity.HasOne(d => d.User)
+                        .WithMany(p => p.Vaccinations)
+                        .HasForeignKey(d => d.UserId)
+                        .HasConstraintName("FK__Vaccinati__user___5DCAEF64");
+                });
 
-            modelBuilder.Entity<Appointment>(entity =>
+                // Настройки для сущности Allergy
+                modelBuilder.Entity<Allergy>(entity =>
+                {
+                    entity.Property(e => e.AllergyId).HasColumnName("allergy_id");
+
+                    entity.Property(e => e.AllergyName)
+                        .HasMaxLength(100)
+                        .IsUnicode(false)
+                        .HasColumnName("allergy_name");
+
+                    entity.Property(e => e.AllergyReaction)
+                        .HasMaxLength(255)
+                        .IsUnicode(false)
+                        .HasColumnName("allergy_reaction");
+
+                    entity.Property(e => e.UserId).HasColumnName("user_id");
+
+                    entity.HasOne(d => d.User)
+                        .WithMany(p => p.Allergies)
+                        .HasForeignKey(d => d.UserId)
+                        .HasConstraintName("FK__Allergies__user___5DCAEF64");
+                });
+
+                modelBuilder.Entity<Appointment>(entity =>
             {
                 entity.Property(e => e.AppointmentId).HasColumnName("appointment_id");
 
@@ -579,6 +595,7 @@ namespace Domain.Models
             });
 
             OnModelCreatingPartial(modelBuilder);
+
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
