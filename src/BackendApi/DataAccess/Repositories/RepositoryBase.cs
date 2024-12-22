@@ -1,7 +1,7 @@
 ﻿using Domain.Interfaces;
-using Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
@@ -10,11 +10,11 @@ namespace DataAccess.Repositories
 {
     public class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
-        protected DbContext _context;
+        protected readonly DbContext _context;
 
         public RepositoryBase(DbContext context)
         {
-            _context = context;
+            _context = context ?? throw new ArgumentNullException(nameof(context)); // Бд при создании не может быть null
         }
 
         public async Task<IEnumerable<T>> FindAll()
@@ -32,14 +32,16 @@ namespace DataAccess.Repositories
             await _context.Set<T>().AddAsync(entity);
         }
 
-        public async Task Update(T entity)
+        public Task Update(T entity) // Не нуждается в await
         {
             _context.Set<T>().Update(entity);
+            return Task.CompletedTask;
         }
 
-        public async Task Delete(T entity)
+        public Task Delete(T entity) // Не нуждается в await
         {
             _context.Set<T>().Remove(entity);
+            return Task.CompletedTask;
         }
 
         public async Task Save()

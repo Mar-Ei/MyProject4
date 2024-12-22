@@ -58,12 +58,12 @@ namespace BackendApi
             }
 
             // Запуск миграций и базы данных
-            using (var scope = app.Services.CreateScope())
-            {
+             using (var scope = app.Services.CreateScope())
+                 {
                 var services = scope.ServiceProvider;
-                var context = services.GetRequiredService<MedicalContext>();
-                context.Database.Migrate();
-            }
+              var context = services.GetRequiredService<MedicalContext>();
+               context.Database.Migrate();
+             }
 
             // Конфигурация CORS для фронтенда (указание правильных адресов)
             app.UseCors(builder => builder.WithOrigins(new[] { "http://localhost:5191" })

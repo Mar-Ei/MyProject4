@@ -33,7 +33,7 @@ namespace BackendApi.Controllers
             {
                 Id = result.UserId,
                 Email = result.Email,
-                Password = result.PasswordHash, 
+                Password = result.Password, 
                 CreatedAt = DateTime.Now,
             };
 
@@ -51,7 +51,7 @@ namespace BackendApi.Controllers
             var userDto = new Domain.Models.User()
             {
                 Email = request.Email,
-                PasswordHash = request.Password,
+                Password = request.Password,
             };
             await _userService.Create(userDto);
             return Ok();

@@ -478,7 +478,7 @@ namespace Domain.Models
 
                 entity.Property(e => e.UserId).HasColumnName("user_id");
 
-                entity.Property(e => e.DateOfBirth)
+                entity.Property(e => e.BirthDate)  // Исправленное название свойства
                     .HasColumnType("date")
                     .HasColumnName("date_of_birth");
 
@@ -487,7 +487,7 @@ namespace Domain.Models
                     .IsUnicode(false)
                     .HasColumnName("email");
 
-                entity.Property(e => e.FirstName)
+                entity.Property(e => e.Firstname)  // Исправленное название свойства
                     .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("first_name");
@@ -498,16 +498,17 @@ namespace Domain.Models
                     .HasColumnName("gender")
                     .IsFixedLength();
 
-                entity.Property(e => e.LastName)
+                entity.Property(e => e.Lastname)  // Исправленное название свойства
                     .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("last_name");
 
-                entity.Property(e => e.PasswordHash)
+                entity.Property(e => e.Password)  // Используйте Password вместо PasswordHash
                     .HasMaxLength(255)
                     .IsUnicode(false)
                     .HasColumnName("password_hash");
             });
+
 
             modelBuilder.Entity<UserActivity>(entity =>
             {

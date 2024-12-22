@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\obj\\Debug\\net6.0\\compressed\\9vbi8htd6c.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorApp2.styles.css",
+      "PackagePath": "staticwebassets\\BlazorApp2.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\Ph\\1.jpg",
+      "PackagePath": "staticwebassets\\Ph\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\Ph\\2.jpg",
+      "PackagePath": "staticwebassets\\Ph\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\Ph\\3.png",
+      "PackagePath": "staticwebassets\\Ph\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\Ph\\4.jpg",
+      "PackagePath": "staticwebassets\\Ph\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\Ph\\6.png",
+      "PackagePath": "staticwebassets\\Ph\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\Ph\\7.jpg",
+      "PackagePath": "staticwebassets\\Ph\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\css\\index.html",
+      "PackagePath": "staticwebassets\\css\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BlazorApp2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BlazorApp2.props",
+      "PackagePath": "build\\BlazorApp2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorApp2.props",
+      "PackagePath": "buildMultiTargeting\\BlazorApp2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BlazorApp2.props",
+      "PackagePath": "buildTransitive\\BlazorApp2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

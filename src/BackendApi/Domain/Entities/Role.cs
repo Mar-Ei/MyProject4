@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Role
+    public enum Role
     {
+        Admin,
+        User
     }
 }
