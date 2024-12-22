@@ -472,3 +472,5 @@ C:\Users\0\Desktop\MyProject4\src\BackendApi\BackendApi\obj\Debug\net8.0\Backend
 C:\Users\0\Desktop\MyProject4\src\BackendApi\BackendApi\obj\Debug\net8.0\BackendApi.pdb
 C:\Users\0\Desktop\MyProject4\src\BackendApi\BackendApi\obj\Debug\net8.0\BackendApi.genruntimeconfig.cache
 C:\Users\0\Desktop\MyProject4\src\BackendApi\BackendApi\obj\Debug\net8.0\ref\BackendApi.dll
+C:\Users\0\Desktop\MyProject4\src\BackendApi\BackendApi\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\0\Desktop\MyProject4\src\BackendApi\BackendApi\bin\Debug\net8.0\Mapster.DependencyInjection.dll

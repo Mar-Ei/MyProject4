@@ -33,5 +33,6 @@ namespace BusinessLogic.Services
             smtp.Send(email);
             smtp.Disconnect(true);
         }
+
     }
 }

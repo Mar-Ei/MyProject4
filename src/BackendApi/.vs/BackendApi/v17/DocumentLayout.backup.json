@@ -3,12 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\authorization\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\authorization\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\authorization\\jwtutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\authorization\\jwtutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\authorization\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\authorization\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\authorization\\authorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\authorization\\authorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\authorization\\allowanonymousattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\authorization\\allowanonymousattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\helpers\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\helpers\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\authorization\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\authorization\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\authorization\\ijwtutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\authorization\\ijwtutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\domain\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\blazorapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -20,10 +92,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\blazorapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47DCBBE1-604D-4C40-8803-89A94D88A86E}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -48,32 +116,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\obj\\BlazorApp2.csproj.nuget.g.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BlazorApp2\\obj\\BlazorApp2.csproj.nuget.g.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\authorization\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\authorization\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\authorization\\ijwtutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\authorization\\ijwtutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\authorization\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\authorization\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\services\\medicalrecordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -148,32 +192,12 @@
       "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\backendapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A231AA0B-AD5A-499F-A8CA-3F5C8221F5EA}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\0\\desktop\\myproject4\\src\\backendapi\\businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -375,57 +399,202 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Helpers\\AppSettings.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Helpers\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Helpers\\AppSettings.cs",
+              "RelativeToolTip": "BusinessLogic\\Helpers\\AppSettings.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T23:16:51.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Program.cs",
               "RelativeDocumentMoniker": "BackendApi\\Program.cs",
               "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Program.cs",
               "RelativeToolTip": "BackendApi\\Program.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAawDsAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T17:58:35.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlazorApp2.csproj",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\BlazorApp2.csproj",
-              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.csproj",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\BlazorApp2.csproj",
-              "RelativeToolTip": "BlazorApp2\\BlazorApp2.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-22T21:21:40.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "BackendApi\\Controllers\\BaseController.cs",
               "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\BaseController.cs",
               "RelativeToolTip": "BackendApi\\Controllers\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:09:56.594Z"
+              "WhenOpened": "2024-12-22T17:09:56.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAALoUAAAAAAAAAAAwwNQUAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-12-22T21:36:38.891Z"
+              "DocumentIndex": 5,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "BackendApi\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T17:11:09.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IAccountService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Authorization\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IAccountService.cs",
+              "RelativeToolTip": "BusinessLogic\\Authorization\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T20:36:21.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\AccountService.cs",
+              "RelativeToolTip": "BusinessLogic\\Services\\AccountService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T20:34:55.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BackendApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\appsettings.json",
+              "RelativeToolTip": "BackendApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-22T16:33:25.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "BackendApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\WeatherForecast.cs",
+              "RelativeToolTip": "BackendApi\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T19:26:09.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeToolTip": "BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T19:26:33.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeToolTip": "BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T19:26:34.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtUtils.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Authorization\\JwtUtils.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Authorization\\JwtUtils.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Authorization\\JwtUtils.cs",
+              "RelativeToolTip": "BackendApi\\Authorization\\JwtUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:26:56.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Authorization\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Authorization\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Authorization\\JwtMiddleware.cs",
+              "RelativeToolTip": "BackendApi\\Authorization\\JwtMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:26:34.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Authorization\\AuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Authorization\\AuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Authorization\\AuthorizeAttribute.cs",
+              "RelativeToolTip": "BackendApi\\Authorization\\AuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:26:07.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AllowAnonymousAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Authorization\\AllowAnonymousAttribute.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Authorization\\AllowAnonymousAttribute.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Authorization\\AllowAnonymousAttribute.cs",
+              "RelativeToolTip": "BackendApi\\Authorization\\AllowAnonymousAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:25:46.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BackendApi.csproj",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\BackendApi.csproj",
+              "RelativeDocumentMoniker": "BackendApi\\BackendApi.csproj",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\BackendApi.csproj",
+              "RelativeToolTip": "BackendApi\\BackendApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T19:56:46.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp2\\Program.cs",
@@ -437,7 +606,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
+              "Title": "ErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Helpers\\ErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Helpers\\ErrorHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Helpers\\ErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "BackendApi\\Helpers\\ErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:24:41.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Employee.cs",
@@ -450,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 21,
               "Title": "Microsoft.NET.Sdk.BlazorWebAssembly.6_0.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk.BlazorWebAssembly\\targets\\Microsoft.NET.Sdk.BlazorWebAssembly.6_0.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk.BlazorWebAssembly\\targets\\Microsoft.NET.Sdk.BlazorWebAssembly.6_0.targets",
@@ -458,12 +640,74 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk.BlazorWebAssembly\\targets\\Microsoft.NET.Sdk.BlazorWebAssembly.6_0.targets",
               "ViewState": "AgIAAH8AAAAAAAAAAAAwwJkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-12-22T21:37:50.742Z",
+              "WhenOpened": "2024-12-22T21:37:50.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IJwtUtils.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IJwtUtils.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Authorization\\IJwtUtils.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IJwtUtils.cs",
+              "RelativeToolTip": "BusinessLogic\\Authorization\\IJwtUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T20:36:25.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IEmailService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Authorization\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IEmailService.cs",
+              "RelativeToolTip": "BusinessLogic\\Authorization\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T20:36:23.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\EmailService.cs",
+              "RelativeToolTip": "BusinessLogic\\Services\\EmailService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T20:37:42.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALoUAAAAAAAAAAAwwNQUAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-22T21:36:38.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BlazorApp2.csproj",
+              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\BlazorApp2.csproj",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.csproj",
+              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\BlazorApp2.csproj",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-22T21:21:40.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "MedicalRecordsController.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\MedicalRecordsController.cs",
               "RelativeDocumentMoniker": "BackendApi\\Controllers\\MedicalRecordsController.cs",
@@ -475,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 25,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "BackendApi\\Controllers\\UserController.cs",
@@ -487,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 27,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
@@ -499,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 28,
               "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
@@ -511,20 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BackendApi.csproj",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\BackendApi.csproj",
-              "RelativeDocumentMoniker": "BackendApi\\BackendApi.csproj",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\BackendApi.csproj",
-              "RelativeToolTip": "BackendApi\\BackendApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-23T19:56:46.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 84,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "BlazorApp2\\Layout\\MainLayout.razor",
@@ -536,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 83,
               "Title": "Contacts.razor",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Contacts.razor",
               "RelativeDocumentMoniker": "BlazorApp2\\Pages\\Contacts.razor",
@@ -548,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 26,
               "Title": "MedicalContext.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalContext.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\MedicalContext.cs",
@@ -560,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "BlazorApp2.csproj.nuget.g.targets",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\obj\\BlazorApp2.csproj.nuget.g.targets",
               "RelativeDocumentMoniker": "BlazorApp2\\obj\\BlazorApp2.csproj.nuget.g.targets",
@@ -572,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 85,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "BlazorApp2\\Pages\\Counter.razor",
@@ -584,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 86,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorApp2\\Layout\\NavMenu.razor",
@@ -596,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 87,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorApp2\\Pages\\Home.razor",
@@ -608,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 88,
               "Title": "Weather.razor",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "BlazorApp2\\Pages\\Weather.razor",
@@ -620,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 89,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\_Imports.razor",
               "RelativeDocumentMoniker": "BlazorApp2\\_Imports.razor",
@@ -632,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 90,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\App.razor",
               "RelativeDocumentMoniker": "BlazorApp2\\App.razor",
@@ -644,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 91,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Dockerfile",
               "RelativeDocumentMoniker": "BlazorApp2\\Dockerfile",
@@ -656,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 92,
               "Title": "nginx.conf",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\nginx.conf",
               "RelativeDocumentMoniker": "BlazorApp2\\nginx.conf",
@@ -668,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 93,
               "Title": "Analyses.razor",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\Pages\\Analyses.razor",
               "RelativeDocumentMoniker": "BlazorApp2\\Pages\\Analyses.razor",
@@ -680,67 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\Services\\AccountService.cs",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\AccountService.cs",
-              "RelativeToolTip": "BusinessLogic\\Services\\AccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T20:34:55.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IAccountService.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\Authorization\\IAccountService.cs",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IAccountService.cs",
-              "RelativeToolTip": "BusinessLogic\\Authorization\\IAccountService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T20:36:21.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IEmailService.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\Authorization\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IEmailService.cs",
-              "RelativeToolTip": "BusinessLogic\\Authorization\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T20:36:23.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IJwtUtils.cs",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IJwtUtils.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\Authorization\\IJwtUtils.cs",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Authorization\\IJwtUtils.cs",
-              "RelativeToolTip": "BusinessLogic\\Authorization\\IJwtUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T20:36:25.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\EmailService.cs",
-              "RelativeToolTip": "BusinessLogic\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T20:37:42.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "MedicalRecordsService.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\MedicalRecordsService.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Services\\MedicalRecordsService.cs",
@@ -752,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "VerifyEmailRequest.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Models\\Accounts\\VerifyEmailRequest.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Models\\Accounts\\VerifyEmailRequest.cs",
@@ -764,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 34,
               "Title": "ValidateResetTokenRequest.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Models\\Accounts\\ValidateResetTokenRequest.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Models\\Accounts\\ValidateResetTokenRequest.cs",
@@ -776,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 35,
               "Title": "UpdateRequest.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Models\\Accounts\\UpdateRequest.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Models\\Accounts\\UpdateRequest.cs",
@@ -788,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Repositories\\UserRepository.cs",
@@ -800,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Repositories\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "DataAccess\\Repositories\\RepositoryBase.cs",
@@ -812,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 36,
               "Title": "RevokeTokenRequest.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Models\\Accounts\\RevokeTokenRequest.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Models\\Accounts\\RevokeTokenRequest.cs",
@@ -824,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 37,
               "Title": "ResetPasswordRequest.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Models\\Accounts\\ResetPasswordRequest.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Models\\Accounts\\ResetPasswordRequest.cs",
@@ -836,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 38,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Models\\Accounts\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Models\\Accounts\\RegisterRequest.cs",
@@ -848,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 39,
               "Title": "ForgotPasswordRequest.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Models\\Accounts\\ForgotPasswordRequest.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Models\\Accounts\\ForgotPasswordRequest.cs",
@@ -860,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 40,
               "Title": "CreateRequest.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Models\\Accounts\\CreateRequest.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Models\\Accounts\\CreateRequest.cs",
@@ -872,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 41,
               "Title": "AuthenticateResponse.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Models\\Accounts\\AuthenticateResponse.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Models\\Accounts\\AuthenticateResponse.cs",
@@ -884,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 42,
               "Title": "AuthenticateRequest.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Models\\Accounts\\AuthenticateRequest.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Models\\Accounts\\AuthenticateRequest.cs",
@@ -896,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 43,
               "Title": "AccountResponse.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Models\\Accounts\\AccountResponse.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Models\\Accounts\\AccountResponse.cs",
@@ -908,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 45,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Entities\\RefreshToken.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\RefreshToken.cs",
@@ -920,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 46,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Role.cs",
@@ -932,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 47,
               "Title": "MedicalHistory.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalHistory.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\MedicalHistory.cs",
@@ -944,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 44,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
@@ -956,43 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\appsettings.json",
-              "RelativeDocumentMoniker": "BackendApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\appsettings.json",
-              "RelativeToolTip": "BackendApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-22T16:33:25.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "GetUserResponse.cs",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\GetUserResponse.cs",
-              "RelativeDocumentMoniker": "BackendApi\\Contracts\\User\\GetUserResponse.cs",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\GetUserResponse.cs",
-              "RelativeToolTip": "BackendApi\\Contracts\\User\\GetUserResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T19:26:33.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "CreateUserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\CreateUserRequest.cs",
-              "RelativeDocumentMoniker": "BackendApi\\Contracts\\User\\CreateUserRequest.cs",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Contracts\\User\\CreateUserRequest.cs",
-              "RelativeToolTip": "BackendApi\\Contracts\\User\\CreateUserRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T19:26:34.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 48,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "BackendApi\\Properties\\launchSettings.json",
@@ -1004,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "BackendApi\\Controllers\\WeatherForecastController.cs",
@@ -1016,31 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "AccountsController.cs",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\AccountsController.cs",
-              "RelativeDocumentMoniker": "BackendApi\\Controllers\\AccountsController.cs",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Controllers\\AccountsController.cs",
-              "RelativeToolTip": "BackendApi\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T17:11:09.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "BackendApi\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\WeatherForecast.cs",
-              "RelativeToolTip": "BackendApi\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T19:26:09.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 50,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Services\\UserService.cs",
@@ -1052,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 51,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BusinessLogic\\Class1.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Class1.cs",
@@ -1064,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 53,
               "Title": "ChangeRoleToString .cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Migrations\\ChangeRoleToString .cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\ChangeRoleToString .cs",
@@ -1076,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 54,
               "Title": "MedicalRecordRepository.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Repositories\\MedicalRecordRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Repositories\\MedicalRecordRepository.cs",
@@ -1088,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "RepositoryWrapper.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
               "RelativeDocumentMoniker": "DataAccess\\Wrapper\\RepositoryWrapper.cs",
@@ -1100,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 52,
               "Title": "ApplyChangesToMedicalDB .cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Migrations\\ApplyChangesToMedicalDB .cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\ApplyChangesToMedicalDB .cs",
@@ -1112,7 +1223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\DataAccess\\Class1.cs",
               "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
@@ -1124,7 +1235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "IMedicalRecordRepository.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IMedicalRecordRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IMedicalRecordRepository.cs",
@@ -1136,7 +1247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "IRepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IRepositoryBase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryBase.cs",
@@ -1148,7 +1259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "IRepositoryWrapper.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IRepositoryWrapper.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryWrapper.cs",
@@ -1160,7 +1271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserService.cs",
@@ -1172,7 +1283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 94,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\css\\index.html",
               "RelativeDocumentMoniker": "BlazorApp2\\wwwroot\\css\\index.html",
@@ -1184,7 +1295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 95,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "BlazorApp2\\wwwroot\\css\\app.css",
@@ -1196,7 +1307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 96,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BlazorApp2\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "BlazorApp2\\wwwroot\\index.html",
@@ -1208,7 +1319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "MedicalRecord.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalRecord.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\MedicalRecord.cs",
@@ -1220,7 +1331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 69,
               "Title": "MedicalTest.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\MedicalTest.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\MedicalTest.cs",
@@ -1232,7 +1343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 68,
               "Title": "Medication.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Medication.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Medication.cs",
@@ -1244,7 +1355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 67,
               "Title": "PhysicalActivity.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\PhysicalActivity.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\PhysicalActivity.cs",
@@ -1256,7 +1367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 62,
               "Title": "ChronicCondition.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\ChronicCondition.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\ChronicCondition.cs",
@@ -1268,7 +1379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 66,
               "Title": "Symptom.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Symptom.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Symptom.cs",
@@ -1280,7 +1391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 63,
               "Title": "Vaccination.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Vaccination.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Vaccination.cs",
@@ -1292,7 +1403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 65,
               "Title": "UserActivity.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\UserActivity.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\UserActivity.cs",
@@ -1304,7 +1415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 64,
               "Title": "UserMessage.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\UserMessage.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\UserMessage.cs",
@@ -1316,7 +1427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 70,
               "Title": "LabResult.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\LabResult.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\LabResult.cs",
@@ -1328,7 +1439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 71,
               "Title": "HealthMetric.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\HealthMetric.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\HealthMetric.cs",
@@ -1340,7 +1451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 72,
               "Title": "EmergencyContact.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\EmergencyContact.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\EmergencyContact.cs",
@@ -1352,7 +1463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 73,
               "Title": "DoctorSchedule.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\DoctorSchedule.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\DoctorSchedule.cs",
@@ -1364,7 +1475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 74,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Doctor.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Doctor.cs",
@@ -1376,7 +1487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 75,
               "Title": "DietPlan.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\DietPlan.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\DietPlan.cs",
@@ -1388,7 +1499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 76,
               "Title": "AppointmentsFeedback.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\AppointmentsFeedback.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\AppointmentsFeedback.cs",
@@ -1400,7 +1511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 77,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Appointment.cs",
@@ -1412,7 +1523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 78,
               "Title": "Allergy.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Models\\Allergy.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Allergy.cs",
@@ -1424,7 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 79,
               "Title": "MedicalContext.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\BackendApi\\Models\\MedicalContext.cs",
               "RelativeDocumentMoniker": "BackendApi\\Models\\MedicalContext.cs",
@@ -1435,7 +1546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 80,
               "Title": "med.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Migrations\\med.cs",
               "RelativeDocumentMoniker": "Domain\\Migrations\\med.cs",
@@ -1447,7 +1558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 81,
               "Title": "20240923200439_MigratonName.Designer.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Migrations\\20240923200439_MigratonName.Designer.cs",
               "RelativeDocumentMoniker": "Domain\\Migrations\\20240923200439_MigratonName.Designer.cs",
@@ -1459,7 +1570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 82,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\0\\Desktop\\MyProject4\\src\\BackendApi\\Domain\\Class1.cs",
               "RelativeDocumentMoniker": "Domain\\Class1.cs",
